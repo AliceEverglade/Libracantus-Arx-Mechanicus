@@ -9,15 +9,18 @@ public class EnemyScript : MonoBehaviour
         melee,
         ranged
     };
+    [Header("Enemy type")]
     public types type;
 
+    [Header("General")]
     public GameObject body;
     [SerializeField] private CircleCollider2D triggerCol;
     [SerializeField] private float speed = 10;
- 
+
     private GameObject target;
     bool canAim = false;
 
+    [Header("Ranged enemy bullets")]
     public GameObject bullet;
     private float shootingTime;
     [SerializeField] private float fireRate = 3f;
