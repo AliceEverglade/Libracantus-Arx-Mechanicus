@@ -40,6 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3990090187
+    locked: 0
+  - name: Cliffs
+    uniqueID: 3620912689
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 732753889
+    locked: 0
+  - name: Plants
+    uniqueID: 458091317
+    locked: 0
+  - name: Trees
+    uniqueID: 310717555
     locked: 0
