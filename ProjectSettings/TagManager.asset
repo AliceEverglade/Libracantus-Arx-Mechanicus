@@ -55,6 +55,15 @@ TagManager:
   - name: Plants
     uniqueID: 458091317
     locked: 0
+  - name: StructuresDec
+    uniqueID: 1236330695
+    locked: 0
+  - name: Structures
+    uniqueID: 3779209891
+    locked: 0
+  - name: StructuresTop
+    uniqueID: 2819248531
+    locked: 0
   - name: Trees
     uniqueID: 310717555
     locked: 0
