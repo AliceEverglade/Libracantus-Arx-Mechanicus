@@ -64,6 +64,15 @@ TagManager:
   - name: StructuresTop
     uniqueID: 2819248531
     locked: 0
+  - name: Trees2
+    uniqueID: 3466104731
+    locked: 0
   - name: Trees
     uniqueID: 310717555
+    locked: 0
+  - name: Trees3
+    uniqueID: 3872861571
+    locked: 0
+  - name: Decor
+    uniqueID: 2361832647
     locked: 0
