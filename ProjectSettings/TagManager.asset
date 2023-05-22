@@ -10,7 +10,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - wall
   - Water
   - UI
   - 
@@ -40,6 +40,39 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3990090187
+    locked: 0
+  - name: Cliffs
+    uniqueID: 3620912689
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 732753889
+    locked: 0
+  - name: Plants
+    uniqueID: 458091317
+    locked: 0
+  - name: StructuresDec
+    uniqueID: 1236330695
+    locked: 0
+  - name: Structures
+    uniqueID: 3779209891
+    locked: 0
+  - name: StructuresTop
+    uniqueID: 2819248531
+    locked: 0
+  - name: Trees2
+    uniqueID: 3466104731
+    locked: 0
+  - name: Trees
+    uniqueID: 310717555
+    locked: 0
+  - name: Trees3
+    uniqueID: 3872861571
+    locked: 0
+  - name: Decor
+    uniqueID: 2361832647
     locked: 0
