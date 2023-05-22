@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private float speed;
+    Vector2 mousePos;
+    Transform playerTrans;
+    Vector2 objPos;
+    float angle;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,7 +16,7 @@ public class PlayerMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float X = Input.GetAxis("Vertical") * Time.fixedDeltaTime;
 
@@ -22,5 +26,11 @@ public class PlayerMove : MonoBehaviour
 
         transform.Translate((Y * speed), 0, 0);
         Debug.Log(X);
+    }
+    private void Update()
+    {
+        mousePos = Input.mousePosition;
+        mousePos.x = mousePos.x - objPos.x;
+        mousePos.y = mousePos.y - objPos.y;
     }
 }
