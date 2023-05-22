@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyStats : Stats
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void BasicAttack()
+    {
+        //check collision or so idk
+        DmgRef.TakeDamage(this /*<- this is wrong */, this, 20);
+    }
+}
