@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class EnemyStats : Stats
 {
-    // Start is called before the first frame update
+    public float shootingTime;
+    public float fireRate = 3f;
+    public float shootingPower = 20f;
+
+    public float speed;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
