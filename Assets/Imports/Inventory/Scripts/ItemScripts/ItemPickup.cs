@@ -7,13 +7,13 @@ public class ItemPickup : MonoBehaviour
 {
     [SerializeField] private float pickupRange = 1f;
     [SerializeField] private InventoryItemData itemData;
-    private SphereCollider collider;
-
+    private SphereCollider pickupCollider;
+    
     private void Awake()
     {
-        collider = GetComponent<SphereCollider>();
-        collider.isTrigger = true;
-        collider.radius = pickupRange;
+        pickupCollider = GetComponent<SphereCollider>();
+        pickupCollider.isTrigger = true;
+        pickupCollider.radius = pickupRange;
     }
 
     private void OnTriggerEnter(Collider other)

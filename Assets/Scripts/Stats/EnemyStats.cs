@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyStats : Stats
+public class EnemyStats : CreatureStats
 {
     public float shootingTime;
     public float fireRate = 3f;
@@ -23,6 +23,5 @@ public class EnemyStats : Stats
     private void BasicAttack()
     {
         //check collision or so idk
-        DmgRef.TakeDamage(this /*<- this is wrong */, this, 20);
     }
 }

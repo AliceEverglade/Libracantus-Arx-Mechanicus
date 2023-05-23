@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e720a93fe9897bb49955782115553a31, type: 3}
-  m_Name: Damage
+  m_Script: {fileID: 11500000, guid: 3b3a0311c95c758489a8fdfcba632d4c, type: 3}
+  m_Name: Burn
   m_EditorClassIdentifier: 
+  TickSpeed: 0
