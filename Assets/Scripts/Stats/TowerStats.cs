@@ -4,9 +4,26 @@ using UnityEngine;
 
 public class TowerStats : Stats
 {
-    public float attackSpeed;
-    public float attackSpeedMultiplier;
-    public AttackPriorities AttackPriority;
+
+    [SerializeField] private TargetingManager targetingManager;
+    [SerializeField] private Targeting targetingSystem;
+    [SerializeField] private AttackPriorities attackPriority;
+    public AttackPriorities AttackPriority
+    {
+        get => attackPriority;
+        set
+        {
+            if(targetingManager.GetTargetingSystem(value.ToString()) != null)
+            {
+                targetingSystem = targetingManager.GetTargetingSystem(value.ToString());
+            }
+            else
+            {
+                Debug.Log("targetting system not found");
+            }
+            attackPriority = value;
+        }
+    }
     public float Range;
 
     public enum AttackPriorities
@@ -39,4 +56,6 @@ public class TowerStats : Stats
             yield break;
         }
     }
+
+    
 }

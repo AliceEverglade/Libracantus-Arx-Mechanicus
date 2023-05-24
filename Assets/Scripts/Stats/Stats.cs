@@ -7,6 +7,8 @@ public abstract class Stats : MonoBehaviour
 {
     public float MaxHP;
     public float CurrentHP;
+    public float Speed;
+    public float SpeedMultiplier;
 
     #region CombatEffects
     public void SlowActivation(float potency, float duration, float tickSpeed)

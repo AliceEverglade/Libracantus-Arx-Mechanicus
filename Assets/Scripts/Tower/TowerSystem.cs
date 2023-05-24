@@ -22,7 +22,10 @@ public class TowerSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (GetTargets(stats, targetTag, out List<Stats> targets))
+        {
+
+        }
     }
 
     private bool GetTargets(TowerStats data, string tag, out List<Stats> targets)
@@ -46,4 +49,5 @@ public class TowerSystem : MonoBehaviour
             return false;
         }
     }
+
 }
