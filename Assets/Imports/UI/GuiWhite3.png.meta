@@ -122,10 +122,10 @@ TextureImporter:
         serializedVersion: 2
         x: 4
         y: 2
-        width: 51
-        height: 22
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,6 +133,27 @@ TextureImporter:
       bones: []
       spriteID: 2a2ab7d86448d17499bd927b4342648b
       internalID: -1750344603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuiWhite3_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238c0f51affb7a443aae5812ae79897c
+      internalID: 943081885
       vertices: []
       indices: 
       edges: []
@@ -149,6 +170,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       GuiWhite3_0: -1750344603
+      GuiWhite3_1: 943081885
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
