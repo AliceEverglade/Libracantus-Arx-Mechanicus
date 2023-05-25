@@ -14,6 +14,7 @@ public class EnemyScript : MonoBehaviour
     [Header("Enemy type")]
     [SerializeField] private types type;
     public EnemyAISO AI;
+    [SerializeField] private EnemyStats stats;
 
     [Header("General")]
     public GameObject body;
@@ -24,16 +25,10 @@ public class EnemyScript : MonoBehaviour
     bool canAim = false;
 
     [Header("Ranged enemy bullets")]
-    private GameObject weaponMuzzle;
     public GameObject bullet;
     public float shootingTime;
     public float fireRate = 3f;
     public float shootingPower = 20f;
-
-    void Start()
-    {
-        weaponMuzzle = body;
-    }
 
     void Update()
     {
@@ -43,7 +38,7 @@ public class EnemyScript : MonoBehaviour
             triggerCol.radius = 4;
             if (canAim)
             {
-                AI.Aim(this, target, 0);
+                AI.Aim(this,stats, target, 0);
             }
         }
 
@@ -53,7 +48,7 @@ public class EnemyScript : MonoBehaviour
             triggerCol.radius = 8;
             if (canAim)
             {
-                AI.Aim(this, target, 3.5f, 5, 4);
+                AI.Aim(this,stats, target, 3.5f, 5, 4);
             }
         }
 
@@ -63,7 +58,7 @@ public class EnemyScript : MonoBehaviour
             triggerCol.radius = 7;
             if (canAim)
             {
-                AI.Aim(this, target, 3.5f, 5, 4);
+                AI.Aim(this,stats, target, 3.5f, 5, 4);
             }
         }
 
@@ -73,7 +68,7 @@ public class EnemyScript : MonoBehaviour
             triggerCol.radius = 9;
             if (canAim)
             {
-                AI.Aim(this, target, 0);
+                AI.Aim(this,stats, target, 0);
             }
         }
     }

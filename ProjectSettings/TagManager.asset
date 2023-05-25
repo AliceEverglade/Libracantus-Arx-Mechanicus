@@ -78,3 +78,6 @@ TagManager:
   - name: Decor
     uniqueID: 2361832647
     locked: 0
+  - name: Wall
+    uniqueID: 1557292131
+    locked: 0
