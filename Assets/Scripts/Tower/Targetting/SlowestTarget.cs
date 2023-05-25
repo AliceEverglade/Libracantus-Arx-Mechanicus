@@ -13,7 +13,7 @@ public class SlowestTarget : Targeting
         foreach (Stats s in input)
         {
             if (lowest == null ||
-                lowest.speed > s.speed)
+                lowest.Speed > s.Speed)
             {
                 lowest = s;
             }

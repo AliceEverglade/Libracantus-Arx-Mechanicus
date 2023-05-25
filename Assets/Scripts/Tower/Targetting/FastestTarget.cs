@@ -13,7 +13,7 @@ public class FastestTarget : Targeting
         foreach (Stats s in input)
         {
             if( highest == null || 
-                highest.speed < s.speed)
+                highest.Speed < s.Speed)
             {
                 highest = s;
             }

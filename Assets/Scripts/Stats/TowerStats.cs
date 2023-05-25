@@ -41,9 +41,9 @@ public class TowerStats : Stats
 
     public override IEnumerator Slow(float potency, float duration, float tickSpeed, float timer)
     {
-        if(potency < attackSpeedMultiplier)
+        if(potency < SpeedMultiplier)
         {
-            attackSpeedMultiplier = potency;
+            SpeedMultiplier = potency;
         }
         timer -= tickSpeed;
         yield return new WaitForSeconds(tickSpeed);
