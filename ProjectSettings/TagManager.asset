@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Tower
   - Wall
+  - Ice
+  - Enemy
   layers:
   - Default
   - TransparentFX
