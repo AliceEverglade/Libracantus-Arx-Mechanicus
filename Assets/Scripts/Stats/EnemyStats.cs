@@ -8,8 +8,6 @@ public class EnemyStats : CreatureStats
     public float fireRate = 3f;
     public float shootingPower = 20f;
 
-    public float speed;
-
     void Start()
     {
         
