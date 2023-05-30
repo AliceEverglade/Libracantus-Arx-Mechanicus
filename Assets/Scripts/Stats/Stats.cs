@@ -8,12 +8,14 @@ public abstract class Stats : MonoBehaviour
 {
     public float MaxHP;
     public float CurrentHP;
+
+    [Range(0.1f, 100f)] // min and max attacks per second
     public float Speed;
     public float SpeedMultiplier;
     public List<AttackData> OnHitEffects;
 
     [SerializeField] private TargetingManager targetingManager;
-    [SerializeField] private Targeting targetingSystem;
+    public Targeting targetingSystem;
     [SerializeField] private AttackPriorities attackPriority;
     public AttackPriorities AttackPriority
     {
@@ -57,7 +59,23 @@ public abstract class Stats : MonoBehaviour
         float timer = duration;
         StartCoroutine(Slow(potency, duration, tickSpeed, timer));
     }
-    public abstract IEnumerator Slow(float potency, float duration, float tickSpeed, float timer);
+    public IEnumerator Slow(float potency, float duration, float tickSpeed, float timer)
+    {
+        if (potency < SpeedMultiplier)
+        {
+            SpeedMultiplier = potency;
+        }
+        timer -= tickSpeed;
+        yield return new WaitForSeconds(tickSpeed / 1000);
+        if (timer > 0)
+        {
+            Slow(potency, duration, tickSpeed, timer);
+        }
+        else
+        {
+            yield break;
+        }
+    }
 
 
     public void BurnActivation(float potency, float duration, float tickSpeed)
@@ -70,7 +88,7 @@ public abstract class Stats : MonoBehaviour
     {
         CurrentHP -= potency;
         timer -= tickSpeed;
-        yield return new WaitForSeconds(tickSpeed);
+        yield return new WaitForSeconds(tickSpeed/1000);
         if(timer > 0)
         {
             Burn(potency, duration, tickSpeed, timer);
@@ -91,7 +109,7 @@ public abstract class Stats : MonoBehaviour
     {
         CurrentHP *= (100-potency) / 100;
         timer -= tickSpeed;
-        yield return new WaitForSeconds(tickSpeed);
+        yield return new WaitForSeconds(tickSpeed/1000);
         if (timer > 0)
         {
             Poison(potency, duration, tickSpeed, timer);
@@ -103,6 +121,14 @@ public abstract class Stats : MonoBehaviour
     }
     #endregion
 
+
+    private void OnValidate()
+    {
+        if(targetingManager != null)
+        {
+            targetingSystem = targetingManager.GetTargetingSystem(attackPriority);
+        }
+    }
 }
 
 [Serializable]

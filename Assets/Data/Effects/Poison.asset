@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 664e94d99de041f4db5a6724885aff23, type: 3}
   m_Name: Poison
   m_EditorClassIdentifier: 
-  TickSpeed: 0
+  TickSpeed: 1000

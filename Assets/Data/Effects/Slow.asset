@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c53a64d7b8ecc4c4482e06d4852d26df, type: 3}
   m_Name: Slow
   m_EditorClassIdentifier: 
-  TickSpeed: 0
+  TickSpeed: 100

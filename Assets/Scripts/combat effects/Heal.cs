@@ -5,8 +5,17 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Effects/Heal")]
 public class Heal : CombatEffect
 {
-    public override void Activate(Stats target, Stats self, float damage)
+    public override void Activate(Stats target, Stats self, float healing)
     {
-        target.CurrentHP += damage;
+        Debug.Log($"{self.name} heals {target.name} for {healing} hp");
+        if(target.CurrentHP + healing <= target.MaxHP)
+        {
+            target.CurrentHP += healing;
+        }
+        else
+        {
+            target.CurrentHP = target.MaxHP;
+        }
+        
     }
 }

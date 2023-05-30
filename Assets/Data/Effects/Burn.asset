@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b3a0311c95c758489a8fdfcba632d4c, type: 3}
   m_Name: Burn
   m_EditorClassIdentifier: 
-  TickSpeed: 0
+  TickSpeed: 500
