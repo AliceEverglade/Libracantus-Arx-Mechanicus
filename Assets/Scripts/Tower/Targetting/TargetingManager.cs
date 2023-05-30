@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,17 +6,26 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="Targeting/Manager")]
 public class TargetingManager : ScriptableObject
 {
-    [SerializeField] private List<Targeting> targetingSystemList;
+    [SerializeField] private List<TargetingSystemData> targetingSystemList;
 
-    public Targeting GetTargetingSystem(string name)
+    public Targeting GetTargetingSystem(Stats.AttackPriorities priority)
     {
-        foreach (Targeting t in targetingSystemList)
+        foreach (TargetingSystemData t in targetingSystemList)
         {
-            if (t.name == name)
+            if (t.priority == priority)
             {
-                return t;
+                return t.system;
             }
         }
         return null;
     }
 }
+
+
+[Serializable]
+public class TargetingSystemData
+{
+    public Targeting system;
+    public Stats.AttackPriorities priority;
+}
+

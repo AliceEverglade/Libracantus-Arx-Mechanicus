@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class CreatureStats : Stats
 {
-    public float movementSpeed;
-    public float movementSpeedMultiplier;
 
 
 
 
     public override IEnumerator Slow(float potency, float duration, float tickSpeed, float timer)
     {
-        if (potency < movementSpeedMultiplier)
+        if (potency < SpeedMultiplier)
         {
-            movementSpeedMultiplier = potency;
+            SpeedMultiplier = potency;
         }
         timer -= tickSpeed;
         yield return new WaitForSeconds(tickSpeed);

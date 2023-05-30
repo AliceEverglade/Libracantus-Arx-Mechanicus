@@ -60,6 +60,9 @@ TagManager:
   - name: StructuresDec
     uniqueID: 1236330695
     locked: 0
+  - name: PlayerAnim
+    uniqueID: 2070051093
+    locked: 0
   - name: Structures
     uniqueID: 3779209891
     locked: 0

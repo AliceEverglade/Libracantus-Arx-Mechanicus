@@ -4,39 +4,13 @@ using UnityEngine;
 
 public class TowerStats : Stats
 {
-
-    [SerializeField] private TargetingManager targetingManager;
-    [SerializeField] private Targeting targetingSystem;
-    [SerializeField] private AttackPriorities attackPriority;
-    public AttackPriorities AttackPriority
-    {
-        get => attackPriority;
-        set
-        {
-            if(targetingManager.GetTargetingSystem(value.ToString()) != null)
-            {
-                targetingSystem = targetingManager.GetTargetingSystem(value.ToString());
-            }
-            else
-            {
-                Debug.Log("targetting system not found");
-            }
-            attackPriority = value;
-        }
-    }
     public float Range;
 
-    public enum AttackPriorities
+    private void OnDrawGizmos()
     {
-        LowestHP,
-        HighestHP,
-        Closest,
-        Furthest,
-        Fastest,
-        Slowest,
-        All
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, Range);
     }
-
 
 
     public override IEnumerator Slow(float potency, float duration, float tickSpeed, float timer)
