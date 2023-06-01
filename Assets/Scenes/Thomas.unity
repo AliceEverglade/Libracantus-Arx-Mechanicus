@@ -270,14 +270,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77935f8126fe0f443874309b399ed159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
-  AI: {fileID: 11400000, guid: 200a9aeb9569baa408bfa5d8ce6dce2f, type: 2}
+  type: 1
+  AI: {fileID: 11400000, guid: cca5e494bd5685641a0118196bfb5382, type: 2}
   stats: {fileID: 807190902}
   body: {fileID: 707385509}
   triggerCol: {fileID: 807190900}
   speed: 3
   bullet: {fileID: 1200556749130526823, guid: 2f28a6f38d5e47d4ead43ed395bd0890, type: 3}
-  shootingTime: 0
+  shootingTime: 10
   fireRate: 700
   shootingPower: 2
 --- !u!4 &807190899
@@ -350,8 +350,13 @@ MonoBehaviour:
   CurrentHP: 0
   Speed: 5
   SpeedMultiplier: 1
-  movementSpeed: 5
-  movementSpeedMultiplier: 1
+  OnHitEffects:
+  - Effect: {fileID: 11400000, guid: 7aa78de3368577147bf903af71d04e63, type: 2}
+    Potency: 10
+    Duration: 0
+  targetingManager: {fileID: 11400000, guid: adf06397b19d1674e94682d3912c51ab, type: 2}
+  targetingSystem: {fileID: 11400000, guid: 3f96c3dd9c2a4294781995802579c015, type: 2}
+  attackPriority: 2
   shootingTime: 1
   fireRate: 3
   shootingPower: 20
