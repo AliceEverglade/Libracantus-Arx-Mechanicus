@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Ice
   - Enemy
+  - Event
   layers:
   - Default
   - TransparentFX
