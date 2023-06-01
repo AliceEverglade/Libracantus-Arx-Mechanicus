@@ -8,7 +8,23 @@ public class PlayerMove : MonoBehaviour
     Vector2 mousePos;
     Transform playerTrans;
     Vector2 objPos;
+    Vector2 move;
+    Vector2 dir;
     float angle;
+
+    public Direction AttackDir;
+    public enum Direction
+    {
+        North,
+        NorthEast,
+        East,
+        SouthEast,
+        South,
+        SouthWest,
+        West,
+        NorthWest
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +34,13 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float X = Input.GetAxis("Vertical") * Time.fixedDeltaTime;
+        dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        move = dir.normalized;
+        float X =  move.x * Time.fixedDeltaTime;
 
         transform.Translate(0, X * speed, 0);
 
-        float Y = Input.GetAxis("Horizontal") * Time.fixedDeltaTime;
+        float Y =  move.y * Time.fixedDeltaTime;
 
         transform.Translate((Y * speed), 0, 0);
         Debug.Log(X);
@@ -32,5 +50,14 @@ public class PlayerMove : MonoBehaviour
         mousePos = Input.mousePosition;
         mousePos.x = mousePos.x - objPos.x;
         mousePos.y = mousePos.y - objPos.y;
+    }
+
+    private void setBalls()
+    {
+        switch(dir)
+        {
+            case 1:
+            
+        }
     }
 }

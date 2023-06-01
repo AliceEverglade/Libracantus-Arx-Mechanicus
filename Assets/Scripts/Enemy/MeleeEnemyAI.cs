@@ -12,5 +12,9 @@ public class MeleeEnemyAI : EnemyAISO
         {
             self.gameObject.transform.position = Vector2.MoveTowards(self.gameObject.transform.position, target.transform.position, self.speed * Time.deltaTime);
         }
+        if (Range < attackRange)
+        {
+            stats.CallOnHitEffects(target.GetComponent<Stats>());
+        }
     }
 }
