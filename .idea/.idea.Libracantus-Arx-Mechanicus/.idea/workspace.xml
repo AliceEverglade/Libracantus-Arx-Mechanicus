@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f803524a-f82a-4ff3-84bd-9b79c5ccfd8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Imports/Tilemap/Ruins Tilemap/Pixel Art Top Down - Basic.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Objects/.Test object Shadow 2.prefab.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/.Electricity Particle System  Variant 2.prefab.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/.Magic Particle System 2.prefab.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shaders/.Magic 2.mat.icloud" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,19 +24,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MacOS/Unity" />
@@ -73,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684845817959</updated>
       <workItem from="1684845832018" duration="1528000" />
+      <workItem from="1685616464037" duration="118000" />
     </task>
     <servers />
   </component>
