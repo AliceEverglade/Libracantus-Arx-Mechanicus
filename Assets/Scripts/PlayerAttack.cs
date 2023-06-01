@@ -15,12 +15,22 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mousePos = Input.mousePosition;
+        // Get the position of the mouse cursor in screen coordinates
+        Vector3 mousePosition = Input.mousePosition;
 
-        Vector3 ScreenPos = Camera.main.ScreenToWorldPoint(mousePos);
+        // Convert the mouse position from screen coordinates to world coordinates
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        Muzzle.transform.LookAt(ScreenPos);
-        Debug.Log(ScreenPos);
-        //Debug.Log(mousePos);
+        // Calculate the direction from the object to the mouse cursor
+        Vector3 direction = mouseWorldPosition - transform.position;
+
+        // Calculate the angle between the object's forward direction and the direction to the mouse cursor
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        // Create a rotation based on the calculated angle
+        Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        // Apply the rotation to the object
+        transform.rotation = rotation;
     }
 }

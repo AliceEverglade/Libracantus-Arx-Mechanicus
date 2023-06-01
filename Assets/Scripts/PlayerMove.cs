@@ -9,6 +9,20 @@ public class PlayerMove : MonoBehaviour
     Transform playerTrans;
     Vector2 objPos;
     float angle;
+
+    public Direction AttackDir;
+    public enum Direction
+    {
+        North,
+        NorthEast,
+        East,
+        SouthEast,
+        South,
+        SouthWest,
+        West,
+        NorthWest
+    }
+
     // Start is called before the first frame update
     void Start()
     {
