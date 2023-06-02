@@ -34,12 +34,9 @@ public class PlayerMove : MonoBehaviour
 
         transform.Translate(0, (Y * speed), 0);
         Debug.Log(X);*/
-        if(move.x != 0 || move.y != 0)
+        if(move.x != 0 && !animator.isAttacking || move.y != 0 && !animator.isAttacking)
         {
-            if (!animator.isAttacking)
-            {
                 rb.velocity = move * speed;
-            }
         }
         else
         {
