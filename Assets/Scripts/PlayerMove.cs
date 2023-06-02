@@ -54,10 +54,10 @@ public class PlayerMove : MonoBehaviour
 
     private void setBalls()
     {
-        switch(dir)
+       if (dir.x < 0 && dir.y >= 0.1)
         {
-            case 1:
-            
+            //AttackDir == Direction.North;
         }
     }
 }
+
