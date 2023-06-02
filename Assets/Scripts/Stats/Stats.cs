@@ -73,6 +73,7 @@ public abstract class Stats : MonoBehaviour
         }
         else
         {
+            SpeedMultiplier = 1;
             yield break;
         }
     }

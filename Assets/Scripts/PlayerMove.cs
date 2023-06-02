@@ -5,59 +5,69 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private bool isFacingRight = false;
     Vector2 mousePos;
     Transform playerTrans;
     Vector2 objPos;
     Vector2 move;
-    Vector2 dir;
     float angle;
 
-    public Direction AttackDir;
-    public enum Direction
-    {
-        North,
-        NorthEast,
-        East,
-        SouthEast,
-        South,
-        SouthWest,
-        West,
-        NorthWest
-    }
+    Rigidbody2D rb;
+    PlayerAnimation animator;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<PlayerAnimation>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        move = dir.normalized;
-        float X =  move.x * Time.fixedDeltaTime;
+        /*float X =  move.x * Time.fixedDeltaTime;
 
-        transform.Translate(0, X * speed, 0);
+        transform.Translate(X * speed, 0, 0);
 
         float Y =  move.y * Time.fixedDeltaTime;
 
-        transform.Translate((Y * speed), 0, 0);
-        Debug.Log(X);
+        transform.Translate(0, (Y * speed), 0);
+        Debug.Log(X);*/
+        if(move.x != 0 || move.y != 0)
+        {
+            if (!animator.isAttacking)
+            {
+                rb.velocity = move * speed;
+            }
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
     }
     private void Update()
     {
+        move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         mousePos = Input.mousePosition;
         mousePos.x = mousePos.x - objPos.x;
         mousePos.y = mousePos.y - objPos.y;
+
+        CheckDir();
     }
 
-    private void setBalls()
+    private void CheckDir()
     {
-       if (dir.x < 0 && dir.y >= 0.1)
+        if (!isFacingRight && rb.velocity.x > 0.1f || isFacingRight && rb.velocity.x < -0.1f) 
         {
-            //AttackDir == Direction.North;
+            flip();
         }
+    }
+
+    private void flip()
+    {
+        isFacingRight = !isFacingRight;
+        transform.Rotate(0, 180, 0);
     }
 }
 

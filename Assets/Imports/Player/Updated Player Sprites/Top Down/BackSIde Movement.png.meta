@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,7 +127,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BackSIde Movement_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 214
+        width: 11
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecabf6dd10817a4fb146daf3bba3709
+      internalID: 1830300325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 214
+        width: 11
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc5172a9c3ad5f4ca25cf741f3982b3
+      internalID: 1665795180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 214
+        width: 11
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad8146952995d0479a78e0ace4e9d26
+      internalID: 1122955028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 214
+        width: 11
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd75e0f5116d98943b780c4ee96c1454
+      internalID: 1743862091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 214
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64426bc54ce88b34a86d50079eab0e4b
+      internalID: 2058366785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 214
+        width: 12
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb220102f336140b071e7828a785ee
+      internalID: -330014293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 150
+        width: 10
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621bffd15aa0f554ebc1954e1ba84a91
+      internalID: -1344481268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 10
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358f543d61361cb4e8695bef0e08a51b
+      internalID: 585370791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 151
+        width: 11
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1d0a9063dca2a4d8b9d6e216b2549e
+      internalID: -347887656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 150
+        width: 10
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3d057df57fafc4287aae9e0276cdc5
+      internalID: -1198909063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 150
+        width: 10
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79aa1deaf97314ea9641c1aa9e3826
+      internalID: -1396022509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 151
+        width: 11
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d577055cf5af348b27405382f86517
+      internalID: 370167780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 86
+        width: 11
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189fe0c9855d46440b54e4a10935bcdd
+      internalID: -1168945155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 86
+        width: 12
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e9f6380cc3dcc45b62caed5a4a7cc0
+      internalID: 1315980543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 87
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c04fcd79ecd4d458cb4511ce58cc61
+      internalID: -100402534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 86
+        width: 11
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131cb948d5a08734fbee619b8331f7c1
+      internalID: -215613013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 86
+        width: 12
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be9d4edf323dc84cbbf2ae48954b5dc
+      internalID: -1784382549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 87
+        width: 11
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2761efe24d4559c41865643f6d14aebc
+      internalID: -449763059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 22
+        width: 10
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05ccaf54f3486844b329914fb3054bc
+      internalID: 575894387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_19
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 10
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462e69b08b80b2446b1ae81b853be87f
+      internalID: 1746664154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 22
+        width: 10
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44a4a4f01367d44782c8e066e8c7969
+      internalID: -1509324452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackSIde Movement_21
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 22
+        width: 9
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeb4035158056547908681028e900f6
+      internalID: -742128321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +600,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BackSIde Movement_0: 1830300325
+      BackSIde Movement_1: 1665795180
+      BackSIde Movement_10: -1396022509
+      BackSIde Movement_11: 370167780
+      BackSIde Movement_12: -1168945155
+      BackSIde Movement_13: 1315980543
+      BackSIde Movement_14: -100402534
+      BackSIde Movement_15: -215613013
+      BackSIde Movement_16: -1784382549
+      BackSIde Movement_17: -449763059
+      BackSIde Movement_18: 575894387
+      BackSIde Movement_19: 1746664154
+      BackSIde Movement_2: 1122955028
+      BackSIde Movement_20: -1509324452
+      BackSIde Movement_21: -742128321
+      BackSIde Movement_3: 1743862091
+      BackSIde Movement_4: 2058366785
+      BackSIde Movement_5: -330014293
+      BackSIde Movement_6: -1344481268
+      BackSIde Movement_7: 585370791
+      BackSIde Movement_8: -347887656
+      BackSIde Movement_9: -1198909063
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,7 +127,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 150
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbc3641200ae4d418d573ddc4363a35
+      internalID: 1586907218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 149
+        width: 17
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40a0c7e57b389c479f4474a769b6a82
+      internalID: -653627241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 19
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e919818f40b6c4da2455660419191f
+      internalID: 306046571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 150
+        width: 19
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ab8f579fd728a48a086582272d3e2f
+      internalID: -1674443995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 150
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008176ce342388f4eab9413f33b2b39e
+      internalID: -274526202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 150
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3ea0e9f51c9e24d95de58a7e411e6a
+      internalID: -1557323276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 86
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48d01ff67a38f94c82f36e4b86455fd
+      internalID: -1645018601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 86
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e670ce90a999aa5429536ffd1ee3e22b
+      internalID: -1725932969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 86
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc38156dd8673e419e4785af6aac8f1
+      internalID: 72613963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 86
+        width: 17
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342d434c875b4d24182c4d09f59f212f
+      internalID: -1065157963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 82
+        width: 31
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8fbf2ec1631b74e880d0198dfafe6b
+      internalID: 1420402498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 84
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7464b87fef90cc4d837e048ab542a4d
+      internalID: 357254686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 89
+        width: 8
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c3fa2ab9ed7974c98f24b3ccf206c6
+      internalID: -1264452735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 86
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bde43a20bb147c499c0e06faa04024c
+      internalID: -1812931632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_14
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 86
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cede393dc687c3149ac08c6bc0feb702
+      internalID: 548907049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_15
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 86
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a22cd839cbab54db3e8d2bd338173b
+      internalID: -1320096919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 20
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c4ff54e4efe5648bbb7b3f89ad1f3a
+      internalID: -1758314930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 22
+        width: 23
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379ccbea423a8ad4da377488052c217a
+      internalID: 195565282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 15
+        width: 37
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e067da67d82b456429055a666d701205
+      internalID: -1563828129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 20
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9997ee12df70d7b4aaf3a9ecd22c6ac4
+      internalID: -341961113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 22
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e964a2072c1677d4abc974c8b7831621
+      internalID: 203657613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_21
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 22
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c620b3b586e6304e9f331b4ce678b17
+      internalID: 641988017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front ConsecutiveSlash_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 23
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed138763c08cbe48b13a6fb0922a644
+      internalID: 1111528524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +621,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Front ConsecutiveSlash_0: 1586907218
+      Front ConsecutiveSlash_1: -653627241
+      Front ConsecutiveSlash_10: 1420402498
+      Front ConsecutiveSlash_11: 357254686
+      Front ConsecutiveSlash_12: -1264452735
+      Front ConsecutiveSlash_13: -1812931632
+      Front ConsecutiveSlash_14: 548907049
+      Front ConsecutiveSlash_15: -1320096919
+      Front ConsecutiveSlash_16: -1758314930
+      Front ConsecutiveSlash_17: 195565282
+      Front ConsecutiveSlash_18: -1563828129
+      Front ConsecutiveSlash_19: -341961113
+      Front ConsecutiveSlash_2: 306046571
+      Front ConsecutiveSlash_20: 203657613
+      Front ConsecutiveSlash_21: 641988017
+      Front ConsecutiveSlash_22: 1111528524
+      Front ConsecutiveSlash_3: -1674443995
+      Front ConsecutiveSlash_4: -274526202
+      Front ConsecutiveSlash_5: -1557323276
+      Front ConsecutiveSlash_6: -1645018601
+      Front ConsecutiveSlash_7: -1725932969
+      Front ConsecutiveSlash_8: 72613963
+      Front ConsecutiveSlash_9: -1065157963
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
