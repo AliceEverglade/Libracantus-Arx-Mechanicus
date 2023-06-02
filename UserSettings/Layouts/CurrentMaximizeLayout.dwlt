@@ -228,21 +228,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6dfffff7ee1ffff1ce2ffff28e3ffffd2f0ffff98f6ffff88f7ffff5cf9ffffee750000b2760000bc760000de760000bef90000
+      m_ExpandedIDs: b0c8feffdcc8feffeac8fefff8c8feff08c9feff16c9fefffc2fffff2830ffff3630ffff4430ffff7680ffff148cffff968dffff228fffffd6dfffff7ee1ffff1ce2ffff28e3ffffd2f0ffff98f6ffff88f7ffff5cf9ffffee750000b2760000bc760000de760000bef90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Shop
+        m_OriginalName: Shop
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -53140
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -560,9 +560,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1281.2983, y: 425.51984, z: 19.620066}
+    m_Target: {x: 326.65515, y: 623.1164, z: -6.687976}
     speed: 2
-    m_Value: {x: 1281.2983, y: 425.51984, z: 19.620066}
+    m_Value: {x: 365.75452, y: 620.78455, z: -6.1738796}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,9 +613,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 521.0191
+    m_Target: 1193.8422
     speed: 2
-    m_Value: 521.0191
+    m_Value: 1142.4327
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -711,22 +711,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Imports/Tiny Wonder RPG Icons Pack FREE
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/Imports/Tiny Wonder RPG Icons Pack FREE
+  - Assets
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\ooste\OneDrive\Bureaublad\Agile Project Final\Project\Libracantus-Arx-Mechanicus
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 431.80002}
-    m_SelectedIDs: a2ea0000
-    m_LastClickedID: 60066
-    m_ExpandedIDs: 00000000887400009c740000a6740000ac740000928b0000d88d0000e68d00004a900000429100001495000072980000fea8000056af0000a4b100001eb3000080b60000c8d10000dedf0000dae400004af2000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 88740000
+    m_LastClickedID: 29832
+    m_ExpandedIDs: 00000000887400009c740000a6740000fea8000056af0000c2d6000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -754,7 +754,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000088740000
+    m_ExpandedIDs: 000000008874000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -782,7 +782,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000dc7f0000acb4000096b4000088730000047900003669000014e900001ae9000000fa000030720000
+    m_ExpandedInstanceIDs: c6230000dc7f0000acb4000096b4000088730000047900003669000014e900001ae900007ac7000000fa00000a090100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -870,7 +870,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -57598
+  m_LastSelectedObjectID: -53168
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
