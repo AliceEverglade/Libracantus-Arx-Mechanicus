@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecfa91567b706ee4ba61623041ca4afd, type: 3}
+  m_Name: TemplateRooms
+  m_EditorClassIdentifier: 
+  Entrance:
+    Name: 
+    RoomOpenings: 00000000010000000200000003000000
+    SpawningWeight: 0
+    WeightModifier: 0
+    Prefab: {fileID: 5911639264753196893, guid: 9faa3392850d8cf46a151a4498563fb8, type: 3}
+  Exit:
+    Name: 
+    RoomOpenings: 02000000
+    SpawningWeight: 0
+    WeightModifier: 0
+    Prefab: {fileID: 2416481972445524544, guid: 99319896165e15d4abc5a24a7cf74fb8, type: 3}
+  Wall:
+    Name: 
+    RoomOpenings: 
+    SpawningWeight: 0
+    WeightModifier: 1
+    Prefab: {fileID: 362418214645209308, guid: f768e9c513b6f3a429a41e9b627eb29c, type: 3}
+  WeightValue: 0.1
+  RoomDataList:
+  - Name: EastRoomTemplate
+    RoomOpenings: 01000000
+    SpawningWeight: 10
+    WeightModifier: 5
+    Prefab: {fileID: 375411632887394881, guid: 793c66e4c29c06c4e9f8ddc796efc7eb, type: 3}
+  - Name: EastSouthRoomTemplate
+    RoomOpenings: 0100000002000000
+    SpawningWeight: 10
+    WeightModifier: -2
+    Prefab: {fileID: 3546718782791077850, guid: f9f02976428e66a4aa76b9fa191bae02, type: 3}
+  - Name: EastSouthWestRoomTemplate
+    RoomOpenings: 010000000200000003000000
+    SpawningWeight: 10
+    WeightModifier: -10
+    Prefab: {fileID: 3765773986460234943, guid: a5999b98b3f156746a09100b5cac2fde, type: 3}
+  - Name: EastWestRoomTemplate
+    RoomOpenings: 0100000003000000
+    SpawningWeight: 10
+    WeightModifier: -2
+    Prefab: {fileID: 3014541842875086171, guid: 7a59277968a45a740a1a2828c4d32701, type: 3}
+  - Name: NorthEastRoomTemplate
+    RoomOpenings: 0000000001000000
+    SpawningWeight: 10
+    WeightModifier: -2
+    Prefab: {fileID: 3601688754858155053, guid: 2bf63e3a45cf49b41833f13bfc18b813, type: 3}
+  - Name: NorthEastSouthRoomTemplate
+    RoomOpenings: 000000000100000002000000
+    SpawningWeight: 10
+    WeightModifier: -5
+    Prefab: {fileID: 4915981356184028869, guid: 12f7de79d8637ae4a927ed39adb06710, type: 3}
+  - Name: NorthRoomTemplate
+    RoomOpenings: 00000000
+    SpawningWeight: 10
+    WeightModifier: 5
+    Prefab: {fileID: 8236558823300885037, guid: 5f530fdf71d700c4abdbb58573114495, type: 3}
+  - Name: NorthSouthRoomTemplate
+    RoomOpenings: 0000000002000000
+    SpawningWeight: 10
+    WeightModifier: -2
+    Prefab: {fileID: 8605332170918109462, guid: f899c8cc6bc859245adb3362dfbd3d73, type: 3}
+  - Name: OpenRoomTemplate
+    RoomOpenings: 00000000010000000200000003000000
+    SpawningWeight: 20
+    WeightModifier: -10
+    Prefab: {fileID: 5911639264753196893, guid: 9faa3392850d8cf46a151a4498563fb8, type: 3}
+  - Name: SouthRoomTemplate
+    RoomOpenings: 02000000
+    SpawningWeight: 10
+    WeightModifier: 5
+    Prefab: {fileID: 2416481972445524544, guid: 99319896165e15d4abc5a24a7cf74fb8, type: 3}
+  - Name: SouthWestNorthRoomTemplate
+    RoomOpenings: 020000000300000000000000
+    SpawningWeight: 10
+    WeightModifier: -5
+    Prefab: {fileID: 7166074407978229599, guid: 16f2c779e1df9aa45902aa2652c68a2f, type: 3}
+  - Name: SouthWestRoomTemplate
+    RoomOpenings: 0200000003000000
+    SpawningWeight: 10
+    WeightModifier: -2
+    Prefab: {fileID: 2965602515348254195, guid: fd4113c0ef212334c9172ad81ad47397, type: 3}
+  - Name: WestNorthEastRoomTemplate
+    RoomOpenings: 030000000000000001000000
+    SpawningWeight: 10
+    WeightModifier: -5
+    Prefab: {fileID: 4654312916124395447, guid: fea08f01da051a34bb8ce0fd247876ae, type: 3}
+  - Name: WestNorthRoomTemplate
+    RoomOpenings: 0300000000000000
+    SpawningWeight: 10
+    WeightModifier: -2
+    Prefab: {fileID: 2854732191930096465, guid: 3e20c2bbc3f4f0c41bf93a45ed5e949c, type: 3}
+  - Name: WestRoomTemplate
+    RoomOpenings: 03000000
+    SpawningWeight: 10
+    WeightModifier: 5
+    Prefab: {fileID: 9193764822246705048, guid: a57ee527fd2e0904ebb8062cdd6f0022, type: 3}
+  RoomCount: 40
