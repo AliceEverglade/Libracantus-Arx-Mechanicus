@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -715,6 +715,7 @@ GameObject:
   - component: {fileID: 107463919}
   - component: {fileID: 107463918}
   - component: {fileID: 107463917}
+  - component: {fileID: 107463920}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -772,6 +773,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &107463920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107463916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725da2081346c224888d0f2221dd9c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PotionsShop: {fileID: 1179007001}
+  BlackSmithShop: {fileID: 1094715345}
+  ArtifactShop: {fileID: 1086786238}
+  PotionbuttonItem1: {fileID: 1520316089}
+  PotionbuttonItem2: {fileID: 741951531}
+  PotionbuttonItem3: {fileID: 1465409375}
+  PotionbuttonItem4: {fileID: 1888726246}
+  PotionbuttonItem5: {fileID: 1504204193}
+  PotionbuttonExit: {fileID: 2119270903}
+  BSButtonItem1: {fileID: 1978909121}
+  BSButtonItem2: {fileID: 1329088718}
+  BSButtonItem3: {fileID: 575628932}
+  BSButtonItem4: {fileID: 1884539683}
+  BSButtonItem5: {fileID: 268464103}
+  BSButtonExit: {fileID: 524831079}
+  ArtiButtonItem1: {fileID: 1642387876}
+  ArtiButtonItem2: {fileID: 1548045446}
+  ArtiButtonItem3: {fileID: 661058030}
+  ArtiButtonItem4: {fileID: 437105367}
+  ArtiButtonItem5: {fileID: 467113318}
+  ArtiButtonExit: {fileID: 1224427105}
 --- !u!1 &116278522
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Double Damage
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -1616,7 +1650,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -2090,7 +2124,7 @@ GameObject:
   - component: {fileID: 268464104}
   - component: {fileID: 268464103}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2930,7 +2964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :20
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -3525,7 +3559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Defence Potion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -3795,7 +3829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -4172,7 +4206,7 @@ GameObject:
   - component: {fileID: 437105368}
   - component: {fileID: 437105367}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4373,7 +4407,7 @@ GameObject:
   - component: {fileID: 467113319}
   - component: {fileID: 467113318}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4612,7 +4646,7 @@ GameObject:
   - component: {fileID: 524831080}
   - component: {fileID: 524831079}
   m_Layer: 5
-  m_Name: Exit Button
+  m_Name: Exit Button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5080,7 +5114,7 @@ GameObject:
   - component: {fileID: 575628933}
   - component: {fileID: 575628932}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5323,7 +5357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -5914,7 +5948,7 @@ GameObject:
   - component: {fileID: 661058031}
   - component: {fileID: 661058030}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6271,7 +6305,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Health Potion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -6843,7 +6877,7 @@ GameObject:
   - component: {fileID: 741951532}
   - component: {fileID: 741951531}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7256,6 +7290,7 @@ GameObject:
   - component: {fileID: 782918470}
   - component: {fileID: 782918469}
   - component: {fileID: 782918468}
+  - component: {fileID: 782918471}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7329,6 +7364,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &782918471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782918467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &783831307
 GameObject:
   m_ObjectHideFlags: 0
@@ -7577,7 +7645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :14
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -7847,7 +7915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Instant Build
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -8134,7 +8202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -9849,7 +9917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -10063,7 +10131,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :17
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -10333,7 +10401,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :13
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -11129,7 +11197,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -11264,7 +11332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -11953,7 +12021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1179006999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12619,7 +12687,7 @@ GameObject:
   - component: {fileID: 1224427106}
   - component: {fileID: 1224427105}
   m_Layer: 5
-  m_Name: Exit Button
+  m_Name: Exit Button3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13198,7 +13266,7 @@ GameObject:
   - component: {fileID: 1329088719}
   - component: {fileID: 1329088718}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13444,7 +13512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -13655,7 +13723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Speed Potion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -14073,7 +14141,7 @@ GameObject:
   - component: {fileID: 1465409376}
   - component: {fileID: 1465409375}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14503,7 +14571,7 @@ GameObject:
   - component: {fileID: 1504204194}
   - component: {fileID: 1504204193}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14663,7 +14731,7 @@ GameObject:
   - component: {fileID: 1520316090}
   - component: {fileID: 1520316089}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15041,7 +15109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -15169,7 +15237,7 @@ GameObject:
   - component: {fileID: 1548045447}
   - component: {fileID: 1548045446}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15405,7 +15473,7 @@ GameObject:
   - component: {fileID: 1642387877}
   - component: {fileID: 1642387876}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17164,7 +17232,7 @@ GameObject:
   - component: {fileID: 1884539684}
   - component: {fileID: 1884539683}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17286,7 +17354,7 @@ GameObject:
   - component: {fileID: 1888726247}
   - component: {fileID: 1888726246}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17999,7 +18067,7 @@ GameObject:
   - component: {fileID: 1978909122}
   - component: {fileID: 1978909121}
   m_Layer: 5
-  m_Name: Buy Button
+  m_Name: Buy Button6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18781,7 +18849,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :1
+  m_text: :8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
