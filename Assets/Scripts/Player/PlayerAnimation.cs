@@ -61,45 +61,58 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         SetDirection();
-        if(Input.GetKeyDown(KeyCode.F))
+        if(Input.GetKeyDown(KeyCode.F) && CanAttack == true)
         {
             Debug.Log("attack");
             isAttacking = true;
             AnimState = AnimationStates.PlayerAttack;
+            StartCoroutine(CooldownSword());
         }
+    }
+
+    bool CanAttack = true;
+
+    IEnumerator CooldownSword()
+    {
+        CanAttack = false;
+        yield return new WaitForSeconds(2f);
+        CanAttack = true;
     }
 
     private void SetDirection()
     {
-        Vector2Int direction = new Vector2Int((int)math.abs(Input.GetAxisRaw("Horizontal")),(int)Input.GetAxisRaw("Vertical"));
-        (int,int) dirTuple = new (direction.x,direction.y);
-        switch (dirTuple)
+        if (!isAttacking)
         {
-            case (0, 0):
-                break;
-            case (0, 1):
-                AnimDirection = AnimationDirection.Up;
-                break;
-            case (0, -1):
-                AnimDirection = AnimationDirection.Down;
-                break;
-            case (1, 0):
-                AnimDirection = AnimationDirection.Side;
-                break;
-            case (1, 1):
-                AnimDirection = AnimationDirection.UpSide;
-                break;
-            case (1, -1):
-                AnimDirection = AnimationDirection.DownSide;
-                break;
-        }
-        if(dirTuple != (0, 0) && !isAttacking)
-        {
-            AnimState = AnimationStates.PlayerWalk;
-        }
-        else if(dirTuple == (0, 0) && !isAttacking)
-        {
-            AnimState = AnimationStates.PlayerIdle;
+            Vector2Int direction = new Vector2Int((int)math.abs(Input.GetAxisRaw("Horizontal")), (int)Input.GetAxisRaw("Vertical"));
+            (int, int) dirTuple = new(direction.x, direction.y);
+            switch (dirTuple)
+            {
+                case (0, 0):
+                    break;
+                case (0, 1):
+                    AnimDirection = AnimationDirection.Up;
+                    break;
+                case (0, -1):
+                    AnimDirection = AnimationDirection.Down;
+                    break;
+                case (1, 0):
+                    AnimDirection = AnimationDirection.Side;
+                    break;
+                case (1, 1):
+                    AnimDirection = AnimationDirection.UpSide;
+                    break;
+                case (1, -1):
+                    AnimDirection = AnimationDirection.DownSide;
+                    break;
+            }
+            if (dirTuple != (0, 0) && !isAttacking)
+            {
+                AnimState = AnimationStates.PlayerWalk;
+            }
+            else if (dirTuple == (0, 0) && !isAttacking)
+            {
+                AnimState = AnimationStates.PlayerIdle;
+            }
         }
     }
 
