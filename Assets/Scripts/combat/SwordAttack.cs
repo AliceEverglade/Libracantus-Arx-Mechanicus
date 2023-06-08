@@ -7,23 +7,12 @@ public class SwordAttack : MonoBehaviour
     //public Collider2D Hitbix;
     bool CanAttack = true;
     public int CooldownTimer;
-    public Animator anim;
+    PlayerAnimation anim;
 
     private void Start()
     {
         //Hitbix.enabled = false;
-        anim = GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.F) && CanAttack == true)
-        {
-            //Hitbix.enabled = true;
-            Debug.Log("attack");
-            anim.Play("");
-            StartCoroutine(Cooldown());
-        }
+        anim = GetComponent<PlayerAnimation>();
     }
 
     IEnumerator Cooldown()
