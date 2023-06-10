@@ -63,7 +63,6 @@ public class PlayerAnimation : MonoBehaviour
         SetDirection();
         if(Input.GetKeyDown(KeyCode.F) && CanAttack == true)
         {
-            Debug.Log("attack");
             isAttacking = true;
             AnimState = AnimationStates.PlayerAttack;
             StartCoroutine(CooldownSword());
@@ -75,7 +74,7 @@ public class PlayerAnimation : MonoBehaviour
     IEnumerator CooldownSword()
     {
         CanAttack = false;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         CanAttack = true;
     }
 

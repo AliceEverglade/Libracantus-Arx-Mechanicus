@@ -6,7 +6,7 @@ using TMPro;
 public class Coins : MonoBehaviour
 {
     public TextMeshProUGUI coins;
-    public static int countCoins = 0;
+    public static float countCoins = 1000;
 
     private void Update()
     {
