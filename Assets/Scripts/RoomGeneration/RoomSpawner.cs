@@ -46,9 +46,12 @@ public class RoomSpawner : MonoBehaviour
     {
         if (collision.CompareTag("RoomSpawnPoint"))
         {
-            if (!collision.GetComponent<RoomSpawner>().spawned && !spawned)
+            if(collision.gameObject.name != "Destroyer")
             {
-                
+                if (!collision.GetComponent<RoomSpawner>().spawned && !spawned)
+                {
+                    //Instantiate(library.Wall.Prefab,transform.position, Quaternion.identity);
+                }
             }
             Destroy(gameObject);
         }

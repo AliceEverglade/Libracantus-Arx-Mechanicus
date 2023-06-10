@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   library: {fileID: 11400000, guid: a37b65194b374094c998e20eabdab5a2, type: 2}
   RoomsSpawned: 0
-  RoomCap: 40
+  RoomCap: 50
 --- !u!4 &477051978
 Transform:
   m_ObjectHideFlags: 0
