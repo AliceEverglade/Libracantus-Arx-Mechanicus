@@ -20,10 +20,10 @@ MonoBehaviour:
     Prefab: {fileID: 5911639264753196893, guid: 9faa3392850d8cf46a151a4498563fb8, type: 3}
   Exit:
     Name: 
-    RoomOpenings: 02000000
+    RoomOpenings: 010000000200000003000000
     SpawningWeight: 0
     WeightModifier: 0
-    Prefab: {fileID: 8052586537837778962, guid: f356f386525f5324eb42e42c4ce69640, type: 3}
+    Prefab: {fileID: 237328369464665035, guid: f356f386525f5324eb42e42c4ce69640, type: 3}
   Wall:
     Name: 
     RoomOpenings: 
