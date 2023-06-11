@@ -17,7 +17,7 @@ public class RandomizerData : ScriptableObject
         string seed = "";
         for (int i = 0; i < SeedLength; i++)
         {
-            seed += UnityEngine.Random.Range(0, 11).ToString();
+            seed += UnityEngine.Random.Range(0, 10).ToString();
         }
         Seed = Convert.ToInt32(seed);
     }

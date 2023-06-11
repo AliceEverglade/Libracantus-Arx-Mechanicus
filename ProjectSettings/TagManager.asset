@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Event
   - RoomSpawnPoint
+  - Room
   layers:
   - Default
   - TransparentFX

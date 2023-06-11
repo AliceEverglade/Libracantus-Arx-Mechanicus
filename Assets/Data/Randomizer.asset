@@ -16,6 +16,6 @@ MonoBehaviour:
   StorySeeds:
     index: 0
     SeedList: 
-  RandomSeed: 0
+  RandomSeed: 1
   SeedLength: 9
-  Seed: 1065676154
+  Seed: 58660424
