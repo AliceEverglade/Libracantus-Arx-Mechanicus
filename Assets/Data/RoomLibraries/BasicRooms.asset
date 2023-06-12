@@ -20,7 +20,7 @@ MonoBehaviour:
     Prefab: {fileID: 8156316260506841621, guid: f2e32eda6a34e4c41a285f11906d3c7e, type: 3}
   Exit:
     Name: 
-    RoomOpenings: 000000000000000000000000
+    RoomOpenings: 010000000200000003000000
     SpawningWeight: 0
     WeightModifier: 0
     Prefab: {fileID: 1275599947321166761, guid: 0877acb6419148d419e254f01d1250ca, type: 3}
@@ -32,75 +32,85 @@ MonoBehaviour:
     Prefab: {fileID: 3489017093820453506, guid: 8d7d4e904c5d86d4499050979310e6a1, type: 3}
   GenericRoom:
     Name: 
-    RoomOpenings: 00000000000000000000000000000000
+    RoomOpenings: 00000000010000000200000003000000
     SpawningWeight: 0
     WeightModifier: 0
     Prefab: {fileID: 1894275690736306578, guid: 4ab4145a2b61b0a4b98ad5cd1c6b9a95, type: 3}
-  WeightValue: 0
+  WeightValue: 0.1
   RoomDataList:
   - Name: EastRoomTemplate
-    RoomOpenings: 00000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 01000000
+    SpawningWeight: 10
+    WeightModifier: 5
     Prefab: {fileID: 7980998902471979796, guid: 7b5b609439f492348a8977e0a5669cb5, type: 3}
   - Name: EastSouthRoomTemplate
-    RoomOpenings: 0000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 0100000002000000
+    SpawningWeight: 10
+    WeightModifier: -2
     Prefab: {fileID: 1482359664828092520, guid: cb3eb9468d114cd45bb90535e5964a28, type: 3}
   - Name: EastSouthWestRoomTemplate
-    RoomOpenings: 000000000000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 010000000200000003000000
+    SpawningWeight: 10
+    WeightModifier: -5
     Prefab: {fileID: 7492836566862403200, guid: b258ae3fa3c1bd2428d193ff4e00bc37, type: 3}
   - Name: EastWestRoomTemplate
-    RoomOpenings: 0000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 0100000003000000
+    SpawningWeight: 10
+    WeightModifier: -2
     Prefab: {fileID: 659098592951468490, guid: 6d9cb62d02eeabb4fb9ddeb021a2a69e, type: 3}
   - Name: NorthEastRoomTemplate
-    RoomOpenings: 0000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 0000000001000000
+    SpawningWeight: 10
+    WeightModifier: -2
     Prefab: {fileID: 1595627402595827738, guid: 895215e22d99ddf4c909201a894962eb, type: 3}
   - Name: NorthRoomTemplate
     RoomOpenings: 00000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    SpawningWeight: 10
+    WeightModifier: 5
     Prefab: {fileID: 7982978675526877591, guid: 6d851f4d9a627a946a9da7819b3d4920, type: 3}
   - Name: NorthSouthRoomTemplate
-    RoomOpenings: 0000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 0000000002000000
+    SpawningWeight: 10
+    WeightModifier: -2
     Prefab: {fileID: 4806483195110265977, guid: d7713c75b4dc1d5429767f5b22cef733, type: 3}
   - Name: SouthRoomTemplate
-    RoomOpenings: 00000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 02000000
+    SpawningWeight: 10
+    WeightModifier: 5
     Prefab: {fileID: 1854882094507257582, guid: dc674fa427112b54a9178626230c298d, type: 3}
   - Name: SouthWestNorthRoomTemplate
-    RoomOpenings: 000000000000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 020000000300000000000000
+    SpawningWeight: 10
+    WeightModifier: -5
     Prefab: {fileID: 515468038423384927, guid: fbd47d3e0d81a2f4ea34b82cbf77df7b, type: 3}
   - Name: SouthWestRoomTemplate
-    RoomOpenings: 0000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 0200000003000000
+    SpawningWeight: 10
+    WeightModifier: -2
     Prefab: {fileID: 6915566448944643047, guid: fb9ec10d6cce9204fa3d1b7db5b707bc, type: 3}
   - Name: WestNorthEastRoomTemplate
-    RoomOpenings: 000000000000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 030000000000000001000000
+    SpawningWeight: 10
+    WeightModifier: -5
     Prefab: {fileID: 2072502762375539036, guid: ae5f5eb31fe4f434c8a8b3c7d467691b, type: 3}
   - Name: WestNorthRoomTemplate
     RoomOpenings: 0000000000000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    SpawningWeight: 10
+    WeightModifier: -2
     Prefab: {fileID: 8259171260081191380, guid: 94a591227c193b3428c0976a6da37530, type: 3}
   - Name: WestRoomTemplate
-    RoomOpenings: 00000000
-    SpawningWeight: 1
-    WeightModifier: 0
+    RoomOpenings: 03000000
+    SpawningWeight: 10
+    WeightModifier: 5
     Prefab: {fileID: 1308068637690985056, guid: 65b6574dbb3122244acdf1881b2d5846, type: 3}
-  RoomCount: 50
+  - Name: OpenRoomTemplate
+    RoomOpenings: 00000000010000000200000003000000
+    SpawningWeight: 20
+    WeightModifier: -10
+    Prefab: {fileID: 1894275690736306578, guid: 4ab4145a2b61b0a4b98ad5cd1c6b9a95, type: 3}
+  - Name: NorthEastSouthRoomTemplate
+    RoomOpenings: 000000000100000002000000
+    SpawningWeight: 10
+    WeightModifier: -5
+    Prefab: {fileID: 3460903372490101541, guid: bf299180c95375242ba2b28c20541db4, type: 3}
+  RoomCount: 100

@@ -157,6 +157,7 @@ MonoBehaviour:
   CurrentHP: 200
   Speed: 20
   SpeedMultiplier: 1
+  StrengthMultiplier: 0
   OnHitEffects: []
   targetingManager: {fileID: 0}
   targetingSystem: {fileID: 0}
@@ -280,6 +281,7 @@ MonoBehaviour:
   CurrentHP: 2000
   Speed: 1
   SpeedMultiplier: 1
+  StrengthMultiplier: 0
   OnHitEffects:
   - Effect: {fileID: 11400000, guid: 7aa78de3368577147bf903af71d04e63, type: 2}
     Potency: 10
@@ -477,6 +479,7 @@ MonoBehaviour:
   CurrentHP: 100
   Speed: 20
   SpeedMultiplier: 1
+  StrengthMultiplier: 0
   OnHitEffects: []
   targetingManager: {fileID: 0}
   targetingSystem: {fileID: 0}
@@ -585,6 +588,7 @@ MonoBehaviour:
   CurrentHP: 100
   Speed: 20
   SpeedMultiplier: 1
+  StrengthMultiplier: 0
   OnHitEffects: []
   targetingManager: {fileID: 0}
   targetingSystem: {fileID: 0}
@@ -693,6 +697,7 @@ MonoBehaviour:
   CurrentHP: 100
   Speed: 40
   SpeedMultiplier: 1
+  StrengthMultiplier: 0
   OnHitEffects: []
   targetingManager: {fileID: 0}
   targetingSystem: {fileID: 0}

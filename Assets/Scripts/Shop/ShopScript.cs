@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -24,8 +25,12 @@ public class ShopScript : MonoBehaviour
     public Button PotionbuttonItem1, PotionbuttonItem2, PotionbuttonItem3, PotionbuttonItem4, PotionbuttonItem5, PotionbuttonExit;
     public Button BSButtonItem1, BSButtonItem2, BSButtonItem3, BSButtonItem4, BSButtonItem5, BSButtonExit;
     public Button ArtiButtonItem1, ArtiButtonItem2, ArtiButtonItem3, ArtiButtonItem4, ArtiButtonItem5, ArtiButtonExit;
-    public Button TowButtonItem1, TowButtonItem2, TowButtonItem3, TowButtonItem4, TowButtonItem5, TowButtonExit;        
-    
+    public Button TowButtonItem1, TowButtonItem2, TowButtonItem3, TowButtonItem4, TowButtonItem5, TowButtonExit;
+
+    //item Lists
+    [SerializeField] private PlayerInventory playerInventory;
+    public List<PotionShopItem> PotionShopItems;
+
     void Start()
     {
         // Start ButtonListeners Region
@@ -55,7 +60,7 @@ public class ShopScript : MonoBehaviour
         ArtiButtonItem5.onClick.AddListener(TaskOnClickArti5);
         ArtiButtonExit.onClick.AddListener(TaskOnClickArtiExit);
         #endregion
-        
+
         #region Tower Listeners
         TowButtonItem1.onClick.AddListener(TaskOnClickTow1);
         TowButtonItem2.onClick.AddListener(TaskOnClickTow2);
@@ -66,9 +71,15 @@ public class ShopScript : MonoBehaviour
         #endregion
 
     }
-    
+
     //TaskOnClick Buttons
     #region Potion Buttons
+
+    public void TaskOnClick(int index)
+    {
+        playerInventory.AddPotion(PotionShopItems[index].Potion);
+        Coins.countCoins -= PotionShopItems[index].Price;
+    }
     void TaskOnClick1()
     {
         Debug.Log("Potion Button 1 is pressed");
@@ -97,13 +108,13 @@ public class ShopScript : MonoBehaviour
 
     void TaskOnClickExit()
     {
-        Debug.Log("Potion Exit Button is pressed");        
+        Debug.Log("Potion Exit Button is pressed");
 
         if (PotionsShop.enabled == true)
         {
             PotionsShop.enabled = !PotionsShop.enabled;
         }
-        
+
     }
     #endregion
 
@@ -188,7 +199,7 @@ public class ShopScript : MonoBehaviour
         }
     }
     #endregion
-   
+
     #region Tower Buttons
     void TaskOnClickTow1()
     {
@@ -230,4 +241,11 @@ public class ShopScript : MonoBehaviour
     }
     #endregion
 
+}
+
+[Serializable]
+public class PotionShopItem
+{
+    public Potion Potion;
+    public float Price;
 }
