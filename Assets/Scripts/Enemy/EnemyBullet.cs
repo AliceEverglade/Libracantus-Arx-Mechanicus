@@ -5,11 +5,17 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     public float destroyTimer = 1;
+    public float speed = 5;
     private Stats caster;
 
     void Start()
     {
         StartCoroutine(DestroyTimer());
+    }
+
+    void Update()
+    {
+        //( * speed * Time.deltaTime);
     }
 
     private IEnumerator DestroyTimer()
