@@ -24,8 +24,7 @@ public class ShopScript : MonoBehaviour
     public Button PotionbuttonItem1, PotionbuttonItem2, PotionbuttonItem3, PotionbuttonItem4, PotionbuttonItem5, PotionbuttonExit;
     public Button BSButtonItem1, BSButtonItem2, BSButtonItem3, BSButtonItem4, BSButtonItem5, BSButtonExit;
     public Button ArtiButtonItem1, ArtiButtonItem2, ArtiButtonItem3, ArtiButtonItem4, ArtiButtonItem5, ArtiButtonExit;
-    public Button TowButtonItem1, TowButtonItem2, TowButtonItem3, TowButtonItem4, TowButtonItem5, TowButtonExit;
-        
+    public Button TowButtonItem1, TowButtonItem2, TowButtonItem3, TowButtonItem4, TowButtonItem5, TowButtonExit;        
     
     void Start()
     {
