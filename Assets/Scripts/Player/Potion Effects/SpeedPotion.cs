@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "PotionEffect/SpeedPotion")]
 public class SpeedPotion : PotionEffect
 {
-    public override void Activate()
+    public override void Activate(PlayerStats stats, float potency, float duration)
     {
         Debug.Log("Speed potion effect goes here.");
     }

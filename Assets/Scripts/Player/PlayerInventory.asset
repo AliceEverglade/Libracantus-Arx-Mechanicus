@@ -32,3 +32,5 @@ MonoBehaviour:
     Effect: {fileID: 11400000, guid: 74ab2ffb50c78394f9565cb5fc097b28, type: 2}
   - Name: Haste Potion
     Effect: {fileID: 11400000, guid: f768437d193f8a043a47338483fb2787, type: 2}
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
