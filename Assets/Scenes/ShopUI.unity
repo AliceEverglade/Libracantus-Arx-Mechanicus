@@ -357,7 +357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :13
+  m_text: :12
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -758,7 +758,7 @@ GameObject:
   - component: {fileID: 64950994}
   - component: {fileID: 64950993}
   m_Layer: 5
-  m_Name: Buy Button1
+  m_Name: Buy Button16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1086,6 +1086,7 @@ MonoBehaviour:
   PotionsShop: {fileID: 1179007001}
   BlackSmithShop: {fileID: 1094715345}
   ArtifactShop: {fileID: 1086786238}
+  TowerShop: {fileID: 2130154896}
   PotionbuttonItem1: {fileID: 1520316089}
   PotionbuttonItem2: {fileID: 741951531}
   PotionbuttonItem3: {fileID: 1465409375}
@@ -1104,6 +1105,12 @@ MonoBehaviour:
   ArtiButtonItem4: {fileID: 437105367}
   ArtiButtonItem5: {fileID: 467113318}
   ArtiButtonExit: {fileID: 1224427105}
+  TowButtonItem1: {fileID: 64950993}
+  TowButtonItem2: {fileID: 995235373}
+  TowButtonItem3: {fileID: 2029540208}
+  TowButtonItem4: {fileID: 961301075}
+  TowButtonItem5: {fileID: 1196801040}
+  TowButtonExit: {fileID: 751437281}
 --- !u!1 &116278522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,7 +2226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :5
+  m_text: :18
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -5668,7 +5675,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Red Mushroom
+  m_text: Healing Tower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -6950,7 +6957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Blaze Mushroom
+  m_text: Arcane Tower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -8366,7 +8373,7 @@ RectTransform:
   m_GameObject: {fileID: 711657813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1594176416}
@@ -8397,7 +8404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cbbc9a7f1b113c44f92df49e5d33c03c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87c31916e4e15f44aa50feee35d15e3a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9148,7 +9155,7 @@ GameObject:
   - component: {fileID: 751437282}
   - component: {fileID: 751437281}
   m_Layer: 5
-  m_Name: Exit Button
+  m_Name: Exit Button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9878,7 +9885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Flame Flower
+  m_text: Poison Tower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -10224,7 +10231,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -10463,7 +10470,7 @@ RectTransform:
   m_GameObject: {fileID: 889501476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1162855277}
@@ -10494,7 +10501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44b711c039d643d418f5ce199ea9a0f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5df682efd1d562749a46d7b56c72206f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11102,7 +11109,7 @@ GameObject:
   - component: {fileID: 961301076}
   - component: {fileID: 961301075}
   m_Layer: 5
-  m_Name: Buy Button4
+  m_Name: Buy Button19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11687,7 +11694,7 @@ GameObject:
   - component: {fileID: 995235374}
   - component: {fileID: 995235373}
   m_Layer: 5
-  m_Name: Buy Button2
+  m_Name: Buy Button17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13144,7 +13151,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :7
+  m_text: :8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -14256,7 +14263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1094715343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15430,7 +15437,7 @@ RectTransform:
   m_GameObject: {fileID: 1165763733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 726194293}
@@ -15438,7 +15445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 251, y: 163}
+  m_AnchoredPosition: {x: 250.9, y: 163}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165763735
@@ -15461,7 +15468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b33da208e5a726b49af39d914f6c0458, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad8407e93896f66498eee9fb9b994e36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16025,7 +16032,7 @@ GameObject:
   - component: {fileID: 1196801041}
   - component: {fileID: 1196801040}
   m_Layer: 5
-  m_Name: Buy Button5
+  m_Name: Buy Button20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17341,7 +17348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Turtle Shell
+  m_text: Ice Tower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -17514,7 +17521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :3
+  m_text: :10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -18445,7 +18452,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Iron Sword
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -21275,7 +21282,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :10
+  m_text: :5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -22200,7 +22207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item Name
+  m_text: Wooden Sword
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -23298,7 +23305,7 @@ RectTransform:
   m_GameObject: {fileID: 1941227887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1655492372}
@@ -23329,7 +23336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01f9d2952ad42084c86226ae2818a4d5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac202c433fe14c64c8175808e23b547c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23862,7 +23869,7 @@ GameObject:
   - component: {fileID: 2029540209}
   - component: {fileID: 2029540208}
   m_Layer: 5
-  m_Name: Buy Button3
+  m_Name: Buy Button18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24250,7 +24257,7 @@ RectTransform:
   m_GameObject: {fileID: 2044744275}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1524005007}
@@ -24281,7 +24288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1969109503, guid: 9e0da800501a2b84aa6b3621142956ed, type: 3}
+  m_Sprite: {fileID: 2064085510, guid: 980b3dfa82531414d99f2876c5b3f398, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24896,7 +24903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dragon Fruit
+  m_text: Flame Tower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
   m_sharedMaterial: {fileID: 3202428732630425463, guid: d1b5c36e1f7043641b886a63558ae092, type: 2}
@@ -25108,7 +25115,7 @@ GameObject:
   - component: {fileID: 2130154895}
   - component: {fileID: 2130154894}
   m_Layer: 5
-  m_Name: ShopUIFarming
+  m_Name: ShopUITowers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
