@@ -13,11 +13,6 @@ public class EnemyBullet : MonoBehaviour
         StartCoroutine(DestroyTimer());
     }
 
-    void Update()
-    {
-        //( * speed * Time.deltaTime);
-    }
-
     private IEnumerator DestroyTimer()
     {
         yield return new WaitForSeconds(destroyTimer);

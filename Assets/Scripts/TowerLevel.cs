@@ -31,6 +31,8 @@ public class TowerLevel : MonoBehaviour
     public GameObject MaxLevelText;
     public GameObject UpgradeUI;
 
+    [SerializeField] private TowerStats stats;
+
     void Start()
     {
         priceNumber.text = TowerCost.ToString();
@@ -52,33 +54,81 @@ public class TowerLevel : MonoBehaviour
                 TowerCost = TowerCost * MultiplyPrice;
             }
             priceNumber.text = TowerCost.ToString();
+
+            if (selectedTower == TowerChoice.Fire)
+            {
+                stats.StrengthMultiplier += 0.1f;
+                stats.Range += 0.5f;
+                stats.Speed += 0.25f;
+                stats.MaxHP += 10;
+            }
+            if (selectedTower == TowerChoice.Ice)
+            {
+                stats.StrengthMultiplier += 0.1f;
+                stats.Range += 0.75f;
+                stats.Speed += 0.15f;
+                stats.MaxHP += 10;
+            }
+            if (selectedTower == TowerChoice.Poison)
+            {
+                stats.StrengthMultiplier += 0.05f;
+                stats.Range += 0.5f;
+                stats.MaxHP += 10;
+            }
+            if (selectedTower == TowerChoice.Magic)
+            {
+                stats.StrengthMultiplier += 0.2f;
+                stats.Range += 0.5f;
+                stats.Speed += 0.25f;
+                stats.MaxHP += 20;
+            }
+            if (selectedTower == TowerChoice.Heal)
+            {
+                stats.StrengthMultiplier += 0.1f;
+                stats.Range += 0.2f;
+                stats.Speed += 0.1f;
+                stats.MaxHP += 30;
+            }
+            if (selectedTower == TowerChoice.Fire)
+            {
+                stats.StrengthMultiplier += 0.1f;
+                stats.Range += 0.5f;
+                stats.Speed += 0.25f;
+                stats.MaxHP += 10;
+            }
+            if (selectedTower == TowerChoice.Ice)
+            {
+                stats.StrengthMultiplier += 0.1f;
+                stats.Range += 0.75f;
+                stats.Speed += 0.15f;
+                stats.MaxHP += 10;
+            }
+            if (selectedTower == TowerChoice.Poison)
+            {
+                stats.StrengthMultiplier += 0.05f;
+                stats.Range += 0.5f;
+                stats.MaxHP += 10;
+            }
+            if (selectedTower == TowerChoice.Magic)
+            {
+                stats.StrengthMultiplier += 0.2f;
+                stats.Range += 0.5f;
+                stats.Speed += 0.25f;
+                stats.MaxHP += 20;
+            }
+            if (selectedTower == TowerChoice.Heal)
+            {
+                stats.StrengthMultiplier += 0.1f;
+                stats.Range += 0.2f;
+                stats.Speed += 0.1f;
+                stats.MaxHP += 30;
+            }
         }
         if(levelCount == MaxLevel)
         {
             DisableUpgrading = true;
             MaxLevelText.SetActive(true);
             UpgradeUI.SetActive(false);
-        }
-
-        if(selectedTower == TowerChoice.Fire)
-        {
-            //make a change in this script or call a function here for a diferent upgrade script that needs to be attached to the tower.
-        }
-        if (selectedTower == TowerChoice.Ice)
-        {
-            //make a change in this script or call a function here for a diferent upgrade script that needs to be attached to the tower.
-        }
-        if (selectedTower == TowerChoice.Poison)
-        {
-            //make a change in this script or call a function here for a diferent upgrade script that needs to be attached to the tower.
-        }
-        if (selectedTower == TowerChoice.Magic)
-        {
-            //make a change in this script or call a function here for a diferent upgrade script that needs to be attached to the tower.
-        }
-        if (selectedTower == TowerChoice.Heal)
-        {
-            //make a change in this script or call a function here for a diferent upgrade script that needs to be attached to the tower.
-        }
+        }        
     }
 }

@@ -12,16 +12,19 @@ public class ShopScript : MonoBehaviour
     public Canvas PotionsShop;
     public Canvas BlackSmithShop;
     public Canvas ArtifactShop;
+    public Canvas TowerShop;
 
     // Have nothing assigned (maybe need later to see if its on or off)
     private bool IsShowingPot;
     private bool IsShowingBS;
     private bool IsShowingArt;
+    private bool IsShowingTow;
 
     // Public Buttons for Potion, Blacksmith & Atrifacts
     public Button PotionbuttonItem1, PotionbuttonItem2, PotionbuttonItem3, PotionbuttonItem4, PotionbuttonItem5, PotionbuttonExit;
     public Button BSButtonItem1, BSButtonItem2, BSButtonItem3, BSButtonItem4, BSButtonItem5, BSButtonExit;
     public Button ArtiButtonItem1, ArtiButtonItem2, ArtiButtonItem3, ArtiButtonItem4, ArtiButtonItem5, ArtiButtonExit;
+    public Button TowButtonItem1, TowButtonItem2, TowButtonItem3, TowButtonItem4, TowButtonItem5, TowButtonExit;
         
     
     void Start()
@@ -54,6 +57,14 @@ public class ShopScript : MonoBehaviour
         ArtiButtonExit.onClick.AddListener(TaskOnClickArtiExit);
         #endregion
         
+        #region Tower Listeners
+        TowButtonItem1.onClick.AddListener(TaskOnClickTow1);
+        TowButtonItem2.onClick.AddListener(TaskOnClickTow2);
+        TowButtonItem3.onClick.AddListener(TaskOnClickTow3);
+        TowButtonItem4.onClick.AddListener(TaskOnClickTow4);
+        TowButtonItem5.onClick.AddListener(TaskOnClickTow5);
+        TowButtonExit.onClick.AddListener(TaskOnClickTowExit);
+        #endregion
 
     }
     
@@ -179,4 +190,45 @@ public class ShopScript : MonoBehaviour
     }
     #endregion
    
+    #region Tower Buttons
+    void TaskOnClickTow1()
+    {
+        Debug.Log("Tower Button 1 is pressed");
+        Coins.countCoins -= 10;
+    }
+
+    void TaskOnClickTow2()
+    {
+        Debug.Log("Tower Button 2 is pressed");
+        Coins.countCoins -= 18;
+    }
+
+    void TaskOnClickTow3()
+    {
+        Debug.Log("Tower Button 3 is pressed");
+        Coins.countCoins -= 8;
+    }
+
+    void TaskOnClickTow4()
+    {
+        Debug.Log("Tower Button 4 is pressed");
+        Coins.countCoins -= 12;
+    }
+
+    void TaskOnClickTow5()
+    {
+        Debug.Log("Tower Button 5 is pressed");
+        Coins.countCoins -= 5;
+    }
+
+    void TaskOnClickTowExit()
+    {
+        Debug.Log("Tower Exit Button is pressed");
+        if (TowerShop.enabled == true)
+        {
+            TowerShop.enabled = !TowerShop.enabled;
+        }
+    }
+    #endregion
+
 }
