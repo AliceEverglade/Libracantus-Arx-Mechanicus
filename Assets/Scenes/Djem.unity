@@ -754,7 +754,7 @@ MonoBehaviour:
   TowerCost: 10
   AddPrice: 5
   MultiplyPrice: 1.2
-  MaxLevel: 10
+  MaxLevel: 4
   levelNumber: {fileID: 145897801}
   priceNumber: {fileID: 1565634167}
   MaxLevelText: {fileID: 497737150}
