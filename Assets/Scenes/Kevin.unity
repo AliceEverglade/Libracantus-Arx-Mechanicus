@@ -369,7 +369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402121086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.53, y: -0.47, z: 0}
+  m_LocalPosition: {x: -3.53, y: 2.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -506,8 +506,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1568276491}
   - component: {fileID: 1568276490}
+  - component: {fileID: 1568276492}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,6 +581,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1568276492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568276489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e488fcd7baad94c48869c4f4bb54c581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnlist:
+  - {fileID: 2110325357133141652, guid: f3b856deea7ac744bae4abfb036f47a9, type: 3}
+  - {fileID: 3847430383865865776, guid: d8c10fa264e296c4589a8793ea4a23ed, type: 3}
+  - {fileID: 8912846441079720001, guid: 65cddb1f4b8ed7048a21d934472bd6a2, type: 3}
+  - {fileID: 2569262933788256700, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+  Spawnlenght: 4
+  wait: 3
+  spawner: {fileID: 1568276489}
+  restart: 0
 --- !u!1 &2075882655
 GameObject:
   m_ObjectHideFlags: 0
