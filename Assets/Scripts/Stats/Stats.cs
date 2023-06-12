@@ -12,6 +12,7 @@ public abstract class Stats : MonoBehaviour
     [Range(0.1f, 100f)] // min and max attacks per second
     public float Speed;
     public float SpeedMultiplier;
+    public float StrengthMultiplier;
     public List<AttackData> OnHitEffects;
 
     [SerializeField] private TargetingManager targetingManager;
@@ -50,7 +51,7 @@ public abstract class Stats : MonoBehaviour
     {
         foreach(AttackData data in OnHitEffects)
         {
-            data.Effect.Activate(target, this, data.Potency);
+            data.Effect.Activate(target, this, data.Potency * StrengthMultiplier);
         }
     }
     #region CombatEffects

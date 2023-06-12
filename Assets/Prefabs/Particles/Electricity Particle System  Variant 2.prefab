@@ -20,6 +20,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5503753034110323688, guid: 955589f07ac274fb5a6ea3d2de83dfc1, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503753034110323688, guid: 955589f07ac274fb5a6ea3d2de83dfc1, type: 3}
       propertyPath: CollisionModule.m_Bounce.scalar
       value: 1
       objectReference: {fileID: 0}
@@ -69,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 827350f48206e4233b18b3fa21655c15, type: 2}
     - target: {fileID: 5503753034110323690, guid: 955589f07ac274fb5a6ea3d2de83dfc1, type: 3}
       propertyPath: m_Name
-      value: 'Electricity Particle System '
+      value: Electricity Particle System  Variant 2
       objectReference: {fileID: 0}
     - target: {fileID: 5503753034110323703, guid: 955589f07ac274fb5a6ea3d2de83dfc1, type: 3}
       propertyPath: m_RootOrder

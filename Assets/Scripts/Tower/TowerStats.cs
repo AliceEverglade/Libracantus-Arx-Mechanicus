@@ -11,7 +11,5 @@ public class TowerStats : Stats
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, Range);
-    }
-
-    
+    } 
 }
