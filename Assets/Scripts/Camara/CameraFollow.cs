@@ -9,10 +9,29 @@ public class CameraFollow : MonoBehaviour
     public float xOffset =1f;
     public Transform target;
 
+    private void OnEnable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void OnDisable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void SetPlayerRef(GameObject player)
+    {
+        target = player.transform;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        Vector3 newPos = new Vector3(target.position.x + xOffset,target.position.y + yOffset,-10f);
-        transform.position = Vector3.Lerp(transform.position,newPos,FollowSpeed*Time.deltaTime);
+        if(target != null)
+        {
+            Vector3 newPos = new Vector3(target.position.x + xOffset, target.position.y + yOffset, -10f);
+            transform.position = Vector3.Lerp(transform.position, newPos, FollowSpeed * Time.deltaTime);
+        }
+        
     }
 }

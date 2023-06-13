@@ -6,6 +6,7 @@ public class PlayerSetup : MonoBehaviour
 {
     [SerializeField] private PlayerInventory inventory;
     [SerializeField] private Vector3 spawnPlayerPos;
+    [SerializeField] GameObject PlayerReference;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class PlayerSetup : MonoBehaviour
 
     public void Setup()
     {
-        inventory.SpawnPlayer(spawnPlayerPos);
+        PlayerReference = inventory.SpawnPlayer(spawnPlayerPos);
+        PlayerReference.GetComponent<PlayerStats>();
     }
 }

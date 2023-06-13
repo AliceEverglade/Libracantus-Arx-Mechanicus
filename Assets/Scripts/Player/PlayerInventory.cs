@@ -8,7 +8,6 @@ public class PlayerInventory : ScriptableObject
 {
     public float Coins;
     public Player Player;
-    [SerializeField] private PlayerStats stats;
     public Artifact[] Artifacts = new Artifact[3];
     public int ArtifactIndex;
     public Armor[] Armors = new Armor[3];
@@ -19,21 +18,17 @@ public class PlayerInventory : ScriptableObject
 
     public void Save()
     {
+        //set player current hp
         //set tower current hp and level
     }
-    public void Load(GameObject player)
+    public GameObject Load(GameObject player)
     {
         Player.PlayerLoad(player);
+        return player;
     }
-    public void SpawnPlayer(Vector3 pos)
+    public GameObject SpawnPlayer(Vector3 pos)
     {
-        Load(Instantiate(Player.PlayerPrefab, pos, Quaternion.identity));
-    }
-
-    public void Setup()
-    {
-        Player.PlayerReference = Instantiate(Player.PlayerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-        stats = Player.PlayerReference.GetComponent<PlayerStats>();
+        return Load(Instantiate(Player.PlayerPrefab, pos, Quaternion.identity));
     }
 
     public void AddCoins(float amount)
@@ -110,7 +105,7 @@ public class PlayerInventory : ScriptableObject
         return Potions[index];
     }
 
-    public void ConsumePotion()
+    public void ConsumePotion(PlayerStats stats)
     {
         Potion potion = GetRandomPotion();
         Potions.Remove(potion);
@@ -160,7 +155,7 @@ public class PlayerInventory : ScriptableObject
         }
     }
 
-    public void SetSword(Sword data)
+    public void SetSword(Sword data, PlayerStats stats)
     {
         stats.StrengthMultiplier -= Sword.damageModifier;
         Sword = data;
@@ -192,11 +187,9 @@ public class PlayerInventory : ScriptableObject
 public class Player
 {
     public GameObject PlayerPrefab;
-    public GameObject PlayerReference;
     public float CurrentHP;
     public void PlayerLoad(GameObject player)
     {
-        PlayerReference = player;
         player.GetComponent<PlayerStats>().CurrentHP = CurrentHP;
     }
 }
@@ -227,6 +220,7 @@ public class Potion
 public class Tower
 {
     public string Name;
+    public bool IsSpawned;
     public GameObject BaseTower;
     public float CurrentHP;
     public int TowerLevel;

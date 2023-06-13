@@ -23,15 +23,26 @@ public class ShopScript : MonoBehaviour
 
     //item Lists
     [SerializeField] private PlayerInventory playerInventory;
+    [SerializeField] private PlayerStats playerStats;
     public List<PotionShopItem> PotionShopItems;
     public List<ArtifactShopItem> ArtifactShopItems;
     public List<TowerShopItem> TowerShopItems;
     public List<SwordShopItem> SwordShopItems;
     public List<ArmorShopItem> ArmorShopItems;
 
-    void Start()
+    private void OnEnable()
     {
-        
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void OnDisable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void SetPlayerRef(GameObject player)
+    {
+        playerStats = player.GetComponent<PlayerStats>();
     }
 
     private void OnValidate()
@@ -93,7 +104,7 @@ public class ShopScript : MonoBehaviour
     {
         if (playerInventory.RemoveCoins(SwordShopItems[index].Price))
         {
-            playerInventory.SetSword(SwordShopItems[index].Sword);
+            playerInventory.SetSword(SwordShopItems[index].Sword, playerStats);
         }
     }
 

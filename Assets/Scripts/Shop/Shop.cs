@@ -27,6 +27,21 @@ public class Shop : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void OnDisable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void SetPlayerRef(GameObject player)
+    {
+        Player = player;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")

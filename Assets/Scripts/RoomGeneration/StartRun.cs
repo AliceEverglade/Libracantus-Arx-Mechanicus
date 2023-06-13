@@ -19,6 +19,9 @@ public class StartRun : MonoBehaviour
 
     [Header("RoomList")]
     [SerializeField] private List<GameObject> roomList;
+
+    [Header("References")]
+    [SerializeField] private CameraFollow cam;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -29,6 +32,13 @@ public class StartRun : MonoBehaviour
     {
         library.RoomCount = 0;
         library.StartGeneration(this.gameObject);
+        
+    }
+
+    private void Setup()
+    {
+        PlayerSetup player = this.gameObject.GetComponent<PlayerSetup>();
+        player.Setup();
     }
 
     private void OnEnable()
@@ -107,6 +117,7 @@ public class StartRun : MonoBehaviour
                 roomList.Add(newRoom);
             }
             doneChecking = true;
+            Setup();
         }
         else if (!doneChecking)
         {
