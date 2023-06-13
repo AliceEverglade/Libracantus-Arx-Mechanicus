@@ -64261,37 +64261,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389060208}
   m_CullTransparentMesh: 1
---- !u!1 &395751714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 395751715}
-  m_Layer: 0
-  m_Name: PlayerSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &395751715
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395751714}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33, y: -17.64, z: -22.985632}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &396461746
 GameObject:
   m_ObjectHideFlags: 0
@@ -87691,6 +87660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: ef7091c27bdf5794fa171bf72fca335c, type: 2}
   spawnPlayerPos: {x: -33, y: -17.64, z: 0}
+  PlayerReference: {fileID: 0}
 --- !u!1 &1304338085
 GameObject:
   m_ObjectHideFlags: 0
@@ -104177,6 +104147,7 @@ MonoBehaviour:
   ArtifactShop: {fileID: 165344481}
   TowerShop: {fileID: 1594472244}
   playerInventory: {fileID: 11400000, guid: ef7091c27bdf5794fa171bf72fca335c, type: 2}
+  playerStats: {fileID: 0}
   PotionShopItems:
   - Name: Health Potion
     Potion:
@@ -104248,6 +104219,7 @@ MonoBehaviour:
   - Name: Flame Tower
     Tower:
       Name: Flame Tower
+      IsSpawned: 0
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
@@ -104256,6 +104228,7 @@ MonoBehaviour:
   - Name: Healing Tower
     Tower:
       Name: Healing Tower
+      IsSpawned: 0
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
@@ -104264,6 +104237,7 @@ MonoBehaviour:
   - Name: Ice Tower
     Tower:
       Name: Ice Tower
+      IsSpawned: 0
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
@@ -104272,6 +104246,7 @@ MonoBehaviour:
   - Name: Poison Tower
     Tower:
       Name: Poison Tower
+      IsSpawned: 0
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
@@ -104280,6 +104255,7 @@ MonoBehaviour:
   - Name: Arcane Tower
     Tower:
       Name: Arcane Tower
+      IsSpawned: 0
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0

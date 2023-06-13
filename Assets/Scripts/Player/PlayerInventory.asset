@@ -12,18 +12,113 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee89d732c2679746a8ed7de9485abb0, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  Coins: 100
+  Coins: 99787
   Player:
     PlayerPrefab: {fileID: 7269314276570184406, guid: 2ac9593d5f204a540a5dc74de92aee55, type: 3}
-    PlayerReference: {fileID: 0}
-    CurrentHP: 0
-  stats: {fileID: 0}
-  Artifacts: []
-  ArtifactIndex: 0
-  Armors: []
-  ArmorIndex: 0
+    CurrentHP: 100
+  Artifacts:
+  - Name: Divine Soup
+    BuffType: {fileID: 0}
+    Potency: 0
+  - Name: Ring of Strength
+    BuffType: {fileID: 0}
+    Potency: 0
+  - Name: Mythical Necklace
+    BuffType: {fileID: 0}
+    Potency: 0
+  ArtifactIndex: 3
+  Armors:
+  - Name: Leather Armor
+    HPValue: 200
+  - Name: Iron Armor
+    HPValue: 300
+  - Name: Gold Armor
+    HPValue: 600
+  ArmorIndex: 3
   Sword:
-    Name: 
-    damageModifier: 0
-  Potions: []
-  Towers: []
+    Name: Iron Sword
+    damageModifier: 1.4
+  Potions:
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Strength Potion
+    Effect: {fileID: 0}
+    Potency: 2
+    Duration: 0
+  - Name: Speed Potion
+    Effect: {fileID: 11400000, guid: 74ab2ffb50c78394f9565cb5fc097b28, type: 2}
+    Potency: 0
+    Duration: 0
+  - Name: Haste Potion
+    Effect: {fileID: 11400000, guid: f768437d193f8a043a47338483fb2787, type: 2}
+    Potency: 0
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  - Name: Health Potion
+    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+    Potency: 200
+    Duration: 0
+  Towers:
+  - Name: Healing Tower
+    IsSpawned: 0
+    BaseTower: {fileID: 0}
+    CurrentHP: 0
+    TowerLevel: 0
+    TowerReference: {fileID: 0}
+  - Name: Flame Tower
+    IsSpawned: 0
+    BaseTower: {fileID: 0}
+    CurrentHP: 0
+    TowerLevel: 0
+    TowerReference: {fileID: 0}
+  - Name: Ice Tower
+    IsSpawned: 0
+    BaseTower: {fileID: 0}
+    CurrentHP: 0
+    TowerLevel: 0
+    TowerReference: {fileID: 0}
+  - Name: Poison Tower
+    IsSpawned: 0
+    BaseTower: {fileID: 0}
+    CurrentHP: 0
+    TowerLevel: 0
+    TowerReference: {fileID: 0}
+  - Name: Arcane Tower
+    IsSpawned: 0
+    BaseTower: {fileID: 0}
+    CurrentHP: 0
+    TowerLevel: 0
+    TowerReference: {fileID: 0}
