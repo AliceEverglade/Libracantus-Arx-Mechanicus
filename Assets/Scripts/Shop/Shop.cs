@@ -9,6 +9,9 @@ public class Shop : MonoBehaviour
     [SerializeField] private GameObject ShopGameObject;
     [SerializeField] private GameObject Player;
     [SerializeField] public BoxCollider2D _SBC2D;
+    public GameObject pauseMenuUI;
+    public GameObject pauseMenuUI2;
+    public GameObject ButtonsUI;
     
     
     [SerializeField] public PlayerMove _PM1;
@@ -57,6 +60,10 @@ public class Shop : MonoBehaviour
                 _PM1.enabled = false;
                 Time.timeScale = 0f;
                 GameIsPaused = true;
+                pauseMenuUI.SetActive(false);
+                pauseMenuUI2.SetActive(false);
+                pauseMenuUI2.SetActive(false);
+                ButtonsUI.SetActive(false);
                 
                 _SBC2D.enabled = false;
                 // make it like the pause menu, where it stops time when you press the button and brings up the menu
@@ -71,5 +78,8 @@ public class Shop : MonoBehaviour
         GameIsPaused = false;
         _PM1.enabled = true;
         _SBC2D.enabled = true;
+        pauseMenuUI.SetActive(false);
+        ButtonsUI.SetActive(false);
+        pauseMenuUI2.SetActive(true);
     }
 }
