@@ -12,25 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee89d732c2679746a8ed7de9485abb0, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  Coins: 0
-  PlayerReference: {fileID: 0}
-  Artifacts:
-  - Name: 
-    BuffType: {fileID: 0}
-    Potency: 0
-  - Name: 
-    BuffType: {fileID: 0}
-    Potency: 0
-  - Name: 
-    BuffType: {fileID: 0}
-    Potency: 0
+  Coins: 100
+  Player:
+    PlayerPrefab: {fileID: 7269314276570184406, guid: 2ac9593d5f204a540a5dc74de92aee55, type: 3}
+    PlayerReference: {fileID: 0}
+    CurrentHP: 0
+  stats: {fileID: 0}
+  Artifacts: []
   ArtifactIndex: 0
   Armors: []
   ArmorIndex: 0
-  Potions:
-  - Name: Speed Potion
-    Effect: {fileID: 11400000, guid: 74ab2ffb50c78394f9565cb5fc097b28, type: 2}
-  - Name: Haste Potion
-    Effect: {fileID: 11400000, guid: f768437d193f8a043a47338483fb2787, type: 2}
-  - Name: Health Potion
-    Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+  Sword:
+    Name: 
+    damageModifier: 0
+  Potions: []
+  Towers: []

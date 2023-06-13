@@ -283,7 +283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6874468}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArtifact
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6874468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9473,7 +9485,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 39358617}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyPotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &39358617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9806,7 +9830,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 51055095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArmor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51055095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15895,7 +15931,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 173467384}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArmor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &173467384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61419,7 +61467,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 255920329}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyTower
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &255920329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69155,7 +69215,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 685553573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArtifact
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &685553573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71425,7 +71497,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 815615323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyPotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &815615323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73164,7 +73248,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 927705559}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyPotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &927705559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77610,7 +77706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1039736705}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArmor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1039736705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78043,7 +78151,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1053868353}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyTower
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1053868353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78806,7 +78926,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1077622123}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyTower
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1077622123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79898,7 +80030,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1121342232}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArtifact
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1121342232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80020,7 +80164,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1136573701}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyPotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1136573701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85235,7 +85391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1190492844}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArtifact
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1190492844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88930,7 +89098,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1350710638}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyTower
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1350710638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103912,6 +104092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1700598187}
+  - component: {fileID: 1700598188}
   m_Layer: 0
   m_Name: Shops
   m_TagString: Untagged
@@ -103944,6 +104125,158 @@ Transform:
   m_Father: {fileID: 1303136320}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700598188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700598186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725da2081346c224888d0f2221dd9c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PotionsShop: {fileID: 785010354}
+  BlackSmithShop: {fileID: 1261379479}
+  ArtifactShop: {fileID: 165344481}
+  TowerShop: {fileID: 1594472244}
+  playerInventory: {fileID: 11400000, guid: ef7091c27bdf5794fa171bf72fca335c, type: 2}
+  PotionShopItems:
+  - Name: Health Potion
+    Potion:
+      Name: Health Potion
+      Effect: {fileID: 11400000, guid: 39dedf15095389b4ea0ae125a186902b, type: 2}
+      Potency: 200
+      Duration: 0
+    Price: 3
+  - Name: Speed Potion
+    Potion:
+      Name: Speed Potion
+      Effect: {fileID: 11400000, guid: 74ab2ffb50c78394f9565cb5fc097b28, type: 2}
+      Potency: 0
+      Duration: 0
+    Price: 5
+  - Name: Defense
+    Potion:
+      Name: Defense
+      Effect: {fileID: 0}
+      Potency: 0
+      Duration: 0
+    Price: 0
+  - Name: Haste Potion
+    Potion:
+      Name: Haste Potion
+      Effect: {fileID: 11400000, guid: f768437d193f8a043a47338483fb2787, type: 2}
+      Potency: 0
+      Duration: 0
+    Price: 13
+  - Name: Strength Potion
+    Potion:
+      Name: Strength Potion
+      Effect: {fileID: 0}
+      Potency: 2
+      Duration: 0
+    Price: 10
+  ArtifactShopItems:
+  - Name: Old Zaza Leaves
+    Artifact:
+      Name: Old Zaza Leaves
+      BuffType: {fileID: 0}
+      Potency: 0
+    Price: 3
+  - Name: Mythical Necklace
+    Artifact:
+      Name: Mythical Necklace
+      BuffType: {fileID: 0}
+      Potency: 0
+    Price: 7
+  - Name: Ring of Purity
+    Artifact:
+      Name: Ring of Purity
+      BuffType: {fileID: 0}
+      Potency: 0
+    Price: 14
+  - Name: Ring of Strength
+    Artifact:
+      Name: Ring of Strength
+      BuffType: {fileID: 0}
+      Potency: 0
+    Price: 20
+  - Name: Divine Soup
+    Artifact:
+      Name: Divine Soup
+      BuffType: {fileID: 0}
+      Potency: 0
+    Price: 25
+  TowerShopItems:
+  - Name: Flame Tower
+    Tower:
+      Name: Flame Tower
+      BaseTower: {fileID: 0}
+      CurrentHP: 0
+      TowerLevel: 0
+      TowerReference: {fileID: 0}
+    Price: 10
+  - Name: Healing Tower
+    Tower:
+      Name: Healing Tower
+      BaseTower: {fileID: 0}
+      CurrentHP: 0
+      TowerLevel: 0
+      TowerReference: {fileID: 0}
+    Price: 18
+  - Name: Ice Tower
+    Tower:
+      Name: Ice Tower
+      BaseTower: {fileID: 0}
+      CurrentHP: 0
+      TowerLevel: 0
+      TowerReference: {fileID: 0}
+    Price: 8
+  - Name: Poison Tower
+    Tower:
+      Name: Poison Tower
+      BaseTower: {fileID: 0}
+      CurrentHP: 0
+      TowerLevel: 0
+      TowerReference: {fileID: 0}
+    Price: 12
+  - Name: Arcane Tower
+    Tower:
+      Name: Arcane Tower
+      BaseTower: {fileID: 0}
+      CurrentHP: 0
+      TowerLevel: 0
+      TowerReference: {fileID: 0}
+    Price: 5
+  SwordShopItems:
+  - Name: Iron Sword
+    Sword:
+      Name: Iron Sword
+      damageModifier: 1.4
+    Price: 17
+  - Name: Wooden Sword
+    Sword:
+      Name: Wooden Sword
+      damageModifier: 1.1
+    Price: 8
+  ArmorShopItems:
+  - Name: Leather Armor
+    Armor:
+      Name: Leather Armor
+      HPValue: 200
+    Price: 3
+  - Name: Iron Armor
+    Armor:
+      Name: Iron Armor
+      HPValue: 300
+    Price: 5
+  - Name: Gold Armor
+    Armor:
+      Name: Gold Armor
+      HPValue: 600
+    Price: 6
 --- !u!1 &1700814992
 GameObject:
   m_ObjectHideFlags: 0
@@ -104336,7 +104669,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1711663953}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuySword
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1711663953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111333,7 +111678,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1802507350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyArtifact
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1802507350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114086,7 +114443,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1919123946}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyPotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1919123946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117050,7 +117419,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2059714082}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuyTower
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2059714082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118136,7 +118517,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2128312700}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1700598188}
+        m_TargetAssemblyTypeName: ShopScript, Assembly-CSharp
+        m_MethodName: BuySword
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2128312700
 MonoBehaviour:
   m_ObjectHideFlags: 0

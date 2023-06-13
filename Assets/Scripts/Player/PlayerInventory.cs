@@ -21,15 +21,39 @@ public class PlayerInventory : ScriptableObject
     {
         //set tower current hp and level
     }
-    public void Load()
+    public void Load(GameObject player)
     {
-
+        Player.PlayerLoad(player);
+    }
+    public void SpawnPlayer(Vector3 pos)
+    {
+        Load(Instantiate(Player.PlayerPrefab, pos, Quaternion.identity));
     }
 
     public void Setup()
     {
         Player.PlayerReference = Instantiate(Player.PlayerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
         stats = Player.PlayerReference.GetComponent<PlayerStats>();
+    }
+
+    public void AddCoins(float amount)
+    {
+        Coins += amount;
+    }
+    public bool CanSpendCoins(float amount)
+    {
+        if (Coins - amount < 0) return false;
+        else return true;
+    }
+
+    public bool RemoveCoins(float amount)
+    {
+        if (CanSpendCoins(amount))
+        {
+            Coins -= amount;
+            return true;
+        }
+        else return false;
     }
 
     #region Artifact Functions
@@ -145,16 +169,36 @@ public class PlayerInventory : ScriptableObject
     #endregion
 
     #region Tower Functions
-
+    public void AddTower(Tower data)
+    {
+        Towers.Add(data);
+    }
+    public void RemoveTower(Tower data)
+    {
+        Towers.Remove(data);
+    }
+    public void SpawnTower(Tower data)
+    {
+        //spawn tower
+    }
+    public void DespawnTower(Tower data)
+    {
+        //despawn tower
+    }
     #endregion
 }
-
 
 [Serializable]
 public class Player
 {
     public GameObject PlayerPrefab;
     public GameObject PlayerReference;
+    public float CurrentHP;
+    public void PlayerLoad(GameObject player)
+    {
+        PlayerReference = player;
+        player.GetComponent<PlayerStats>().CurrentHP = CurrentHP;
+    }
 }
 
 [Serializable]
