@@ -22,7 +22,6 @@ public class Shop : MonoBehaviour
     public void Start()
     {
         ShopScreenOpen.SetActive(false);
-        _PM1 = Player.GetComponent<PlayerMove>();
         _SBC2D = ShopGameObject.GetComponent<BoxCollider2D>();
         
     }
@@ -40,6 +39,7 @@ public class Shop : MonoBehaviour
     private void SetPlayerRef(GameObject player)
     {
         Player = player;
+        _PM1 = Player.GetComponent<PlayerMove>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

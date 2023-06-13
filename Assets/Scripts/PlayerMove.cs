@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    private PlayerStats stats;
     [SerializeField] private float speed;
     [SerializeField] private bool isFacingRight = false;
     Vector2 mousePos;
@@ -14,7 +15,20 @@ public class PlayerMove : MonoBehaviour
 
     Rigidbody2D rb;
     PlayerAnimation animator;
+    private void OnEnable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
 
+    private void OnDisable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void SetPlayerRef(GameObject player)
+    {
+        stats = player.GetComponent<PlayerStats>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +59,7 @@ public class PlayerMove : MonoBehaviour
     }
     private void Update()
     {
+        speed = stats.Speed * stats.SpeedMultiplier;
         move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         mousePos = Input.mousePosition;
         mousePos.x = mousePos.x - objPos.x;

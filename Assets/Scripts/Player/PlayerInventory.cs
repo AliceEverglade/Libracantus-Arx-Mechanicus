@@ -37,24 +37,39 @@ public class PlayerInventory : ScriptableObject
     }
     public bool CanSpendCoins(float amount)
     {
-        if (Coins - amount < 0) return false;
-        else return true;
+        if (Coins - amount < 0)
+        {
+            Debug.Log("can't remove coins");
+            return false;
+        }
+        else
+        {
+            Debug.Log("can remove coins");
+            return true;
+        }
     }
 
     public bool RemoveCoins(float amount)
     {
+        Debug.Log("trying to remove " + amount + "coins");
         if (CanSpendCoins(amount))
         {
             Coins -= amount;
+            Debug.Log("removed coins");
             return true;
         }
-        else return false;
+        else
+        {
+            Debug.Log("didn't remove coins");
+            return false;
+        }
     }
 
     #region Artifact Functions
     public bool AddArtifact(Artifact data)
     {
-        if (Artifacts.Length < ArtifactIndex)
+        Debug.Log("adding artifact: " + data.Name);
+        if (Artifacts.Length > ArtifactIndex)
         {
             Artifacts[ArtifactIndex] = data;
             //apply stats from artifact
@@ -116,7 +131,7 @@ public class PlayerInventory : ScriptableObject
     #region Armor and Sword Functions
     public bool AddArmor(Armor data)
     {
-        if (Armors.Length < ArmorIndex)
+        if (Armors.Length > ArmorIndex)
         {
             Armors[ArmorIndex] = data;
             //apply stats from armor

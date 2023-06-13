@@ -80,6 +80,7 @@ public class ShopScript : MonoBehaviour
 
     public void BuyArtifact(int index)
     {
+        Debug.Log("buy artifact number" + (index + 1));
         if (playerInventory.RemoveCoins(ArtifactShopItems[index].Price))
         {
             if (!playerInventory.AddArtifact(ArtifactShopItems[index].Artifact))
@@ -110,7 +111,7 @@ public class ShopScript : MonoBehaviour
 
     public void BuyTower(int index)
     {
-        if (playerInventory.RemoveCoins(SwordShopItems[index].Price))
+        if (playerInventory.RemoveCoins(TowerShopItems[index].Price))
         {
             playerInventory.AddTower(TowerShopItems[index].Tower);
         }

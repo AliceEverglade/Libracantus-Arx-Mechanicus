@@ -4918,9 +4918,10 @@ GameObject:
   - component: {fileID: 7269314276570184397}
   - component: {fileID: 7269314276570184396}
   - component: {fileID: 7269314276570184398}
+  - component: {fileID: 7683709851958845914}
   m_Layer: 0
   m_Name: Airy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5027,7 +5028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3896d984d762f4a93782badf2aec3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 0
   isFacingRight: 1
 --- !u!114 &7269314276570184403
 MonoBehaviour:
@@ -5096,3 +5097,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordStrikeEffects:
   - {fileID: 4778981411969154276}
+--- !u!114 &7683709851958845914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269314276570184406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3032dbd0f3700d0498b54e3486b9d454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHP: 100
+  CurrentHP: 0
+  Speed: 5
+  SpeedMultiplier: 1
+  StrengthMultiplier: 1
+  OnHitEffects:
+  - Effect: {fileID: 11400000, guid: 7aa78de3368577147bf903af71d04e63, type: 2}
+    Potency: 20
+    Duration: 0
+  - Effect: {fileID: 11400000, guid: 9a8cd089e4a6c2f42897496406bdbf01, type: 2}
+    Potency: 10
+    Duration: 2
+  targetingManager: {fileID: 11400000, guid: adf06397b19d1674e94682d3912c51ab, type: 2}
+  targetingSystem: {fileID: 11400000, guid: 1cd7da3413fad5a469f468e9ca331f03, type: 2}
+  attackPriority: 0
