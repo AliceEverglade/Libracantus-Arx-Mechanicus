@@ -15,6 +15,36 @@ public class PlayerInventory : ScriptableObject
     public Sword Sword;
     public List<Potion> Potions;
     public List<Tower> Towers;
+    //Icons
+    //Armor
+    public Texture2D IconArmorLeather;
+    public Texture2D IconArmorIron;
+    public Texture2D IconArmorGold;
+
+    //Artifacts
+    public Texture2D IconArtifactLeaves;
+    public Texture2D IconArtifactNecklace;
+    public Texture2D IconArtifactPurity;
+    public Texture2D IconArtifactStrength;
+    public Texture2D IconArtifactSoup;
+
+    //Potions
+    public Texture2D IconPotionHealth;
+    public Texture2D IconPotionSpeed;
+    public Texture2D IconPotionDefence;
+    public Texture2D IconPotionHaste;
+    public Texture2D IconPotionStrength;
+
+    //Swords
+    public Texture2D IconSwordWooden;
+    public Texture2D IconSwordIron;
+
+    //Towers
+    public Texture2D IconTowerFlame;
+    public Texture2D IconTowerHealing;
+    public Texture2D IconTowerIce;
+    public Texture2D IconTowerPoison;
+    public Texture2D IconTowerArcane;
 
     public void Save()
     {
@@ -212,6 +242,7 @@ public class Player
 [Serializable]
 public class Artifact
 {
+    public Sprite Icon;
     public string Name;
     public PlayerStatBuff BuffType;
     public float Potency;
@@ -220,6 +251,7 @@ public class Artifact
 [Serializable]
 public class Potion
 {
+    public Sprite Icon;
     public string Name;
     public PotionEffect Effect;
     public float Potency;
@@ -234,6 +266,7 @@ public class Potion
 [Serializable]
 public class Tower
 {
+    public Sprite Icon;
     public string Name;
     public bool IsSpawned;
     public GameObject BaseTower;
@@ -245,6 +278,7 @@ public class Tower
 [Serializable]
 public class Armor
 {
+    public Sprite Icon;
     public string Name;
     public float HPValue;
 }
@@ -252,6 +286,7 @@ public class Armor
 [Serializable]
 public class Sword
 {
+    public Sprite Icon;
     public string Name;
     public float damageModifier;
 }

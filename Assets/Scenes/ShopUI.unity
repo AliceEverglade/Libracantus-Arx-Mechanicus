@@ -1087,30 +1087,13 @@ MonoBehaviour:
   BlackSmithShop: {fileID: 1094715345}
   ArtifactShop: {fileID: 1086786238}
   TowerShop: {fileID: 2130154896}
-  PotionbuttonItem1: {fileID: 1520316089}
-  PotionbuttonItem2: {fileID: 741951531}
-  PotionbuttonItem3: {fileID: 1465409375}
-  PotionbuttonItem4: {fileID: 1888726246}
-  PotionbuttonItem5: {fileID: 1504204193}
-  PotionbuttonExit: {fileID: 2119270903}
-  BSButtonItem1: {fileID: 1978909121}
-  BSButtonItem2: {fileID: 1329088718}
-  BSButtonItem3: {fileID: 575628932}
-  BSButtonItem4: {fileID: 1884539683}
-  BSButtonItem5: {fileID: 268464103}
-  BSButtonExit: {fileID: 524831079}
-  ArtiButtonItem1: {fileID: 1642387876}
-  ArtiButtonItem2: {fileID: 1548045446}
-  ArtiButtonItem3: {fileID: 661058030}
-  ArtiButtonItem4: {fileID: 437105367}
-  ArtiButtonItem5: {fileID: 467113318}
-  ArtiButtonExit: {fileID: 1224427105}
-  TowButtonItem1: {fileID: 64950993}
-  TowButtonItem2: {fileID: 995235373}
-  TowButtonItem3: {fileID: 2029540208}
-  TowButtonItem4: {fileID: 961301075}
-  TowButtonItem5: {fileID: 1196801040}
-  TowButtonExit: {fileID: 751437281}
+  playerInventory: {fileID: 0}
+  playerStats: {fileID: 0}
+  PotionShopItems: []
+  ArtifactShopItems: []
+  TowerShopItems: []
+  SwordShopItems: []
+  ArmorShopItems: []
 --- !u!1 &116278522
 GameObject:
   m_ObjectHideFlags: 0
