@@ -5110,7 +5110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHP: 100
-  CurrentHP: 0
+  CurrentHP: 100
   Speed: 5
   SpeedMultiplier: 1
   StrengthMultiplier: 1
