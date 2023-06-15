@@ -1,19 +1,37 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 
 
 public class Healthbar : MonoBehaviour
 {
-    [SerializeField] private Health playerHealth;
+    
     [SerializeField] private Image totalhealthBar;
     [SerializeField] private Image currenthealthBar;
+    public GameObject target;
+
+    private void OnEnable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void OnDisable()
+    {
+        PlayerStats.onReferenceSet += SetPlayerRef;
+    }
+
+    private void SetPlayerRef(GameObject player)
+    {
+        target = player;
+    }
 
     private void Start()
     {
-        totalhealthBar.fillAmount = playerHealth.currentHealth / 10;
+        totalhealthBar.fillAmount = target.GetComponent<PlayerStats>().CurrentHP / 200;
     }
     private void Update()
     {
-        currenthealthBar.fillAmount = playerHealth.currentHealth / 10;
+        currenthealthBar.fillAmount = target.GetComponent<PlayerStats>().CurrentHP / 200;
     }
 }
