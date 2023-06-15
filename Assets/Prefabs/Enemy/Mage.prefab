@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2569262933623435371, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1840732742, guid: f5a4de8d22c18924d86927c455caba9f, type: 3}
+    - target: {fileID: 2569262933623435371, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569262933623435371, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569262933623435371, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2569262933788256700, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: m_Name
       value: Mage
@@ -65,3 +81,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+--- !u!1 &2110325356763189056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2569262933623435368, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+  m_PrefabInstance: {fileID: 4534767198663442216}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &36001897474335669
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110325356763189056}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8b484f218594aee42b442ab82a7986e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
