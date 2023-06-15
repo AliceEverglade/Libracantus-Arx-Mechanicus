@@ -16,6 +16,7 @@ public abstract class EnemyAISO : ScriptableObject
 
     public void Fire(EnemyStats stats, GameObject weaponMuzzle, Vector2 target, GameObject bullet)
     {
+        stats.gameObject.transform.GetChild(0).gameObject.GetComponent<Animator>().SetTrigger("attack");
         if (Time.time > stats.shootingTime)
         {
             stats.shootingTime = Time.time + stats.fireRate / 1000;

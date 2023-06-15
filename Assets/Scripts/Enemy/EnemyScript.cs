@@ -26,15 +26,17 @@ public class EnemyScript : MonoBehaviour
 
     [Header("Ranged enemy bullets")]
     public GameObject bullet;
-    public float shootingTime;
-    public float fireRate = 3f;
-    public float shootingPower = 20f;
+
+
+    private void Start()
+    {
+        stats = this.GetComponent<EnemyStats>();
+    }
 
     void Update()
     {
         if(type == types.melee)
         {
-            body.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0);
             triggerCol.radius = 4;
             if (canAim)
             {
@@ -44,7 +46,6 @@ public class EnemyScript : MonoBehaviour
 
         if(type == types.ranged)
         {
-            body.GetComponent<SpriteRenderer>().color = new Color(0, 0, 1);
             triggerCol.radius = 8;
             if (canAim)
             {
@@ -54,7 +55,6 @@ public class EnemyScript : MonoBehaviour
 
         if (type == types.mage)
         {
-            body.GetComponent<SpriteRenderer>().color = new Color(0, 1, 0);
             triggerCol.radius = 7;
             if (canAim)
             {
@@ -64,7 +64,6 @@ public class EnemyScript : MonoBehaviour
 
         if(type == types.suicide)
         {
-            body.GetComponent<SpriteRenderer>().color = new Color(0, 1, 1);
             triggerCol.radius = 9;
             if (canAim)
             {

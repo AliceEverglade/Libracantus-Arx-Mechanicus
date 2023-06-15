@@ -23,6 +23,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: fireRate
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 2569262933788256700, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: m_Name
       value: Mage

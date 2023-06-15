@@ -11,6 +11,14 @@ public class MeleeEnemyAI : EnemyAISO
         if (Range > attackRange)
         {
             self.gameObject.transform.position = Vector2.MoveTowards(self.gameObject.transform.position, target.transform.position, self.speed * Time.deltaTime);
+            if(self.gameObject.transform.position.x > target.transform.position.x)
+            {
+                self.gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else
+            {
+                self.gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
         }
         if (Range < attackRange)
         {
