@@ -12,6 +12,9 @@ public class Shop : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject pauseMenuUI2;
     public GameObject ButtonsUI;
+    public GameObject InventoryUI;
+    public GameObject InventoryUI2;
+    public GameObject ButtonsUI2;
     
     
     [SerializeField] public PlayerMove _PM1;
@@ -77,8 +80,10 @@ public class Shop : MonoBehaviour
                 GameIsPaused = true;
                 pauseMenuUI.SetActive(false);
                 pauseMenuUI2.SetActive(false);
-                pauseMenuUI2.SetActive(false);
                 ButtonsUI.SetActive(false);
+                InventoryUI.SetActive(false);
+                InventoryUI2.SetActive(false);
+                ButtonsUI2.SetActive(false);
                 
                 _SBC2D.enabled = false;
                 // make it like the pause menu, where it stops time when you press the button and brings up the menu
@@ -96,5 +101,8 @@ public class Shop : MonoBehaviour
         pauseMenuUI.SetActive(false);
         ButtonsUI.SetActive(false);
         pauseMenuUI2.SetActive(true);
+        InventoryUI.SetActive(false);
+        ButtonsUI2.SetActive(false);
+        InventoryUI2.SetActive(true);
     }
 }

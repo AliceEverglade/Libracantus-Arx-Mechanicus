@@ -51,6 +51,14 @@ public class PauseMenu : MonoBehaviour
 
     }
 
+    public void LoadTown()
+    {
+        Time.timeScale = 1f;
+        Debug.Log("Loading Town...");
+        SceneManager.LoadScene("Start");
+
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitng game...");

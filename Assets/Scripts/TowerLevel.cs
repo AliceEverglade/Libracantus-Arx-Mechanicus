@@ -30,6 +30,7 @@ public class TowerLevel : MonoBehaviour
     public TextMeshProUGUI priceNumber;
     public GameObject MaxLevelText;
     public GameObject UpgradeUI;
+    [SerializeField] private PlayerInventory Inventory;
 
     [SerializeField] private TowerStats stats;
 
@@ -40,11 +41,11 @@ public class TowerLevel : MonoBehaviour
 
     public void BuyUpgrade()
     {
-        if(Coins.countCoins >= TowerCost && DisableUpgrading == false)
+        if(Inventory.Coins >= TowerCost && DisableUpgrading == false)
         {
             levelCount++;
             levelNumber.text = levelCount.ToString();
-            Coins.countCoins -= TowerCost;
+            Inventory.Coins -= TowerCost;
             if(AddPrice != 0)
             {
                 TowerCost = TowerCost += AddPrice;

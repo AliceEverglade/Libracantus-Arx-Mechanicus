@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee89d732c2679746a8ed7de9485abb0, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  Coins: 98824
+  Coins: 30
   Player:
     PlayerPrefab: {fileID: 7269314276570184406, guid: 2ac9593d5f204a540a5dc74de92aee55, type: 3}
     CurrentHP: 100

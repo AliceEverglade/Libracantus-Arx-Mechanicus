@@ -260,6 +260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8912846441079720006, guid: 65cddb1f4b8ed7048a21d934472bd6a2, type: 3}
+      propertyPath: CurrentHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65cddb1f4b8ed7048a21d934472bd6a2, type: 3}
 --- !u!1 &1444151794
@@ -412,6 +416,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3847430383865865783, guid: d8c10fa264e296c4589a8793ea4a23ed, type: 3}
+      propertyPath: CurrentHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8c10fa264e296c4589a8793ea4a23ed, type: 3}
 --- !u!1001 &1611384981
@@ -424,6 +432,10 @@ PrefabInstance:
     - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: fireRate
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: CurrentHP
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: shootingTime
@@ -846,6 +858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2110325357133141651, guid: f3b856deea7ac744bae4abfb036f47a9, type: 3}
+      propertyPath: CurrentHP
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2110325357133141652, guid: f3b856deea7ac744bae4abfb036f47a9, type: 3}
       propertyPath: m_Name
       value: Mage
@@ -1194,6 +1210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2110325357133141651, guid: f3b856deea7ac744bae4abfb036f47a9, type: 3}
+      propertyPath: CurrentHP
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2110325357133141652, guid: f3b856deea7ac744bae4abfb036f47a9, type: 3}
       propertyPath: m_Name
       value: Enemy

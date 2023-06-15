@@ -6,14 +6,14 @@ using TMPro;
 public class Coins : MonoBehaviour
 {
     public TextMeshProUGUI coins;
-    public static float countCoins = 1000;
+    [SerializeField] private PlayerInventory Coin;
 
     private void Update()
     {
-        coins.text = countCoins.ToString();
-        if(countCoins <= 0)
+        coins.text = Coin.Coins.ToString();
+        if(Coin.Coins <= 0)
         {
-            countCoins = 0;
+            Coin.Coins = 0;
         }
     }
 }
