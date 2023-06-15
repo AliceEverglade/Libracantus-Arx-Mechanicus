@@ -21,7 +21,7 @@ public class TowerLevel : MonoBehaviour
 
     public float TowerCost;
     public float AddPrice;
-    public float MultiplyPrice;
+    public float MultiplyPrice; 
 
     public int MaxLevel;
     public static bool DisableUpgrading = false;
@@ -58,68 +58,34 @@ public class TowerLevel : MonoBehaviour
             if (selectedTower == TowerChoice.Fire)
             {
                 stats.StrengthMultiplier += 0.1f;
-                stats.Range += 0.5f;
+                stats.Range += 0.25f;
                 stats.Speed += 0.25f;
                 stats.MaxHP += 10;
             }
             if (selectedTower == TowerChoice.Ice)
             {
                 stats.StrengthMultiplier += 0.1f;
-                stats.Range += 0.75f;
+                stats.Range += 0.4f;
                 stats.Speed += 0.15f;
                 stats.MaxHP += 10;
             }
             if (selectedTower == TowerChoice.Poison)
             {
                 stats.StrengthMultiplier += 0.05f;
-                stats.Range += 0.5f;
+                stats.Range += 0.25f;
                 stats.MaxHP += 10;
             }
             if (selectedTower == TowerChoice.Magic)
             {
                 stats.StrengthMultiplier += 0.2f;
-                stats.Range += 0.5f;
+                stats.Range += 0.4f;
                 stats.Speed += 0.25f;
                 stats.MaxHP += 20;
             }
             if (selectedTower == TowerChoice.Heal)
             {
                 stats.StrengthMultiplier += 0.1f;
-                stats.Range += 0.2f;
-                stats.Speed += 0.1f;
-                stats.MaxHP += 30;
-            }
-            if (selectedTower == TowerChoice.Fire)
-            {
-                stats.StrengthMultiplier += 0.1f;
-                stats.Range += 0.5f;
-                stats.Speed += 0.25f;
-                stats.MaxHP += 10;
-            }
-            if (selectedTower == TowerChoice.Ice)
-            {
-                stats.StrengthMultiplier += 0.1f;
-                stats.Range += 0.75f;
-                stats.Speed += 0.15f;
-                stats.MaxHP += 10;
-            }
-            if (selectedTower == TowerChoice.Poison)
-            {
-                stats.StrengthMultiplier += 0.05f;
-                stats.Range += 0.5f;
-                stats.MaxHP += 10;
-            }
-            if (selectedTower == TowerChoice.Magic)
-            {
-                stats.StrengthMultiplier += 0.2f;
-                stats.Range += 0.5f;
-                stats.Speed += 0.25f;
-                stats.MaxHP += 20;
-            }
-            if (selectedTower == TowerChoice.Heal)
-            {
-                stats.StrengthMultiplier += 0.1f;
-                stats.Range += 0.2f;
+                stats.Range += 0.1f;
                 stats.Speed += 0.1f;
                 stats.MaxHP += 30;
             }
