@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class TowerLevel : MonoBehaviour
+
+public class TowerLevel1 : MonoBehaviour
 {
     int levelCount = 1;
 
@@ -21,7 +22,7 @@ public class TowerLevel : MonoBehaviour
 
     public float TowerCost;
     public float AddPrice;
-    public float MultiplyPrice; 
+    public float MultiplyPrice;
 
     public int MaxLevel;
     public static bool DisableUpgrading = false;
@@ -30,7 +31,6 @@ public class TowerLevel : MonoBehaviour
     public TextMeshProUGUI priceNumber;
     public GameObject MaxLevelText;
     public GameObject UpgradeUI;
-    [SerializeField] private PlayerInventory Inventory;
 
     [SerializeField] private TowerStats stats;
 
@@ -41,16 +41,16 @@ public class TowerLevel : MonoBehaviour
 
     public void BuyUpgrade()
     {
-        if(Inventory.Coins >= TowerCost && DisableUpgrading == false)
+        if (Coins.countCoins >= TowerCost && DisableUpgrading == false)
         {
             levelCount++;
             levelNumber.text = levelCount.ToString();
-            Inventory.Coins -= TowerCost;
-            if(AddPrice != 0)
+            Coins.countCoins -= TowerCost;
+            if (AddPrice != 0)
             {
                 TowerCost = TowerCost += AddPrice;
             }
-            if(MultiplyPrice != 0)
+            if (MultiplyPrice != 0)
             {
                 TowerCost = TowerCost * MultiplyPrice;
             }
@@ -91,11 +91,11 @@ public class TowerLevel : MonoBehaviour
                 stats.MaxHP += 30;
             }
         }
-        if(levelCount == MaxLevel)
+        if (levelCount == MaxLevel)
         {
             DisableUpgrading = true;
             MaxLevelText.SetActive(true);
             UpgradeUI.SetActive(false);
-        }        
+        }
     }
 }

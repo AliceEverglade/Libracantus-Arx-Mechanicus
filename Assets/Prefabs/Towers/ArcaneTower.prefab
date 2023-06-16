@@ -1388,7 +1388,7 @@ GameObject:
   - component: {fileID: 7809609485947391834}
   - component: {fileID: 7809609485947391833}
   m_Layer: 0
-  m_Name: MagicTower
+  m_Name: ArcaneTower
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
