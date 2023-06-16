@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 42beec049f1061045aa59accc901be64
+guid: 4a2803879361f11429273e6d873d151d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,244 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: burning-ghoul_0
+      name: Explosion SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa338a26fa6c978428a9f5b645931e0b
+      internalID: 529112850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500b5ab5cf1562a41ac2fecfe5d16ac9
+      internalID: 1327803270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2997651ea65774e8c320a62e04593b
+      internalID: -18669126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897facd3214ac64eb05a421a78ab2b6
+      internalID: 1652793159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfd4d8cff66f5c4f905d36aafb26c76
+      internalID: 1375673795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397a565ad640d543bb0eb8631e54c88
+      internalID: 1812000518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e855ae4dd317e714791847b60d075619
+      internalID: 2133591912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbd376d92159ec41bd8c582d399b0ec
+      internalID: 390194273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7777a62e31acc4a9da44a7e7f254d3
+      internalID: -475085144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c026aa2484b1b944b89bd4a1628dde4e
+      internalID: -1347230555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87df6d540ffcd4a4ba7a25881792d811
+      internalID: 922621174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion SpriteSheet_11
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 57
-        height: 60
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f830630d84f6fa419c211a4bd20a5fd
-      internalID: -1572796536
+      spriteID: cd2192d1ba3267341bce89d878b0bf03
+      internalID: 677809253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: burning-ghoul_1
+      name: Explosion SpriteSheet_12
       rect:
         serializedVersion: 2
-        x: 57
+        x: 64
         y: 0
-        width: 57
-        height: 60
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,302 +383,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 176f0a282a9cd6a439824698c85d255c
-      internalID: 1248259980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_2
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6aefe5af1b93cf140a61c6fbdc91a04b
-      internalID: -1687142758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_3
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 089e6fcfe891ba9428a1278c533f6fca
-      internalID: 1459384977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_4
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e4d8e0ee98325248860c5801c5634e2
-      internalID: -697573570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_5
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28d65da140847c241a729cf69ee7841c
-      internalID: 1767971858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_6
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c6ae4a360310574db27cfb93d4cd020
-      internalID: -1484018959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_7
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8b3ffbf53b1ac54bbcf683e3b583303
-      internalID: 14298374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_8
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4f270a39880f7e44bc0fed3236ea696
-      internalID: 1038730304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_9
-      rect:
-        serializedVersion: 2
-        x: 513
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f22aaa4f7749f5545a1208b71eef4a69
-      internalID: -1565977652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_10
-      rect:
-        serializedVersion: 2
-        x: 570
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d789782b0190e948b818fa3e49d8b3b
-      internalID: -78892171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_11
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 787ec9c6cbd2d1b47a9d24b6c3573ea1
-      internalID: -1789344048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_12
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cdc2c7f6a433294593a05d3001dca22
-      internalID: -984820281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_13
-      rect:
-        serializedVersion: 2
-        x: 741
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9835ef397c2f9c488cc14396d5b0f15
-      internalID: -380891656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_14
-      rect:
-        serializedVersion: 2
-        x: 798
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9010b16de86bdc149b5ac084d6ec975a
-      internalID: 1264161315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burning-ghoul_15
-      rect:
-        serializedVersion: 2
-        x: 855
-        y: 0
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f52ef8c499632cf4e96d76ec3397fe70
-      internalID: -1767534049
+      spriteID: 87bbceca59a066f47a750c3865a08db0
+      internalID: 1183386080
       vertices: []
       indices: 
       edges: []
@@ -463,22 +400,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      burning-ghoul_0: -1572796536
-      burning-ghoul_1: 1248259980
-      burning-ghoul_10: -78892171
-      burning-ghoul_11: -1789344048
-      burning-ghoul_12: -984820281
-      burning-ghoul_13: -380891656
-      burning-ghoul_14: 1264161315
-      burning-ghoul_15: -1767534049
-      burning-ghoul_2: -1687142758
-      burning-ghoul_3: 1459384977
-      burning-ghoul_4: -697573570
-      burning-ghoul_5: 1767971858
-      burning-ghoul_6: -1484018959
-      burning-ghoul_7: 14298374
-      burning-ghoul_8: 1038730304
-      burning-ghoul_9: -1565977652
+      Explosion SpriteSheet_0: 529112850
+      Explosion SpriteSheet_1: 1327803270
+      Explosion SpriteSheet_10: 922621174
+      Explosion SpriteSheet_11: 677809253
+      Explosion SpriteSheet_12: 1183386080
+      Explosion SpriteSheet_2: -18669126
+      Explosion SpriteSheet_3: 1652793159
+      Explosion SpriteSheet_4: 1375673795
+      Explosion SpriteSheet_5: 1812000518
+      Explosion SpriteSheet_6: 2133591912
+      Explosion SpriteSheet_7: 390194273
+      Explosion SpriteSheet_8: -475085144
+      Explosion SpriteSheet_9: -1347230555
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
