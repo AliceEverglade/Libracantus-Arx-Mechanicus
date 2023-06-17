@@ -38,4 +38,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("ThemeSelector");
     }
+
+    public void Menus()
+    {
+        SceneManager.LoadScene("MenuC");
+    }
 }

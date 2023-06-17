@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 
 public class Healthbar : MonoBehaviour
@@ -33,5 +34,11 @@ public class Healthbar : MonoBehaviour
     private void Update()
     {
         currenthealthBar.fillAmount = target.GetComponent<PlayerStats>().CurrentHP / 200;
+
+        if(target.GetComponent<PlayerStats>().CurrentHP <= 0)
+        {
+            SceneManager.LoadScene("MenuC");
+        }
+
     }
 }
