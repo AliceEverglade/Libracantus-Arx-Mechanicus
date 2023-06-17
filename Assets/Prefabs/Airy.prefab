@@ -4919,6 +4919,7 @@ GameObject:
   - component: {fileID: 7269314276570184396}
   - component: {fileID: 7269314276570184398}
   - component: {fileID: 7683709851958845914}
+  - component: {fileID: 2062530453879850700}
   m_Layer: 0
   m_Name: Airy
   m_TagString: Player
@@ -5124,3 +5125,16 @@ MonoBehaviour:
   targetingManager: {fileID: 11400000, guid: adf06397b19d1674e94682d3912c51ab, type: 2}
   targetingSystem: {fileID: 11400000, guid: 1cd7da3413fad5a469f468e9ca331f03, type: 2}
   attackPriority: 0
+--- !u!114 &2062530453879850700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269314276570184406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7c3d4fad818b34a822b7577cbb71a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: ef7091c27bdf5794fa171bf72fca335c, type: 2}

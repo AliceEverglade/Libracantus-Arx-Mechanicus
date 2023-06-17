@@ -1,7 +1,7 @@
-using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using EasyButtons;
 
 [CreateAssetMenu(menuName = "Data/PlayerInventory")]
 public class PlayerInventory : ScriptableObject
@@ -15,36 +15,7 @@ public class PlayerInventory : ScriptableObject
     public Sword Sword;
     public List<Potion> Potions;
     public List<Tower> Towers;
-    //Icons
-    //Armor
-    public Texture2D IconArmorLeather;
-    public Texture2D IconArmorIron;
-    public Texture2D IconArmorGold;
-
-    //Artifacts
-    public Texture2D IconArtifactLeaves;
-    public Texture2D IconArtifactNecklace;
-    public Texture2D IconArtifactPurity;
-    public Texture2D IconArtifactStrength;
-    public Texture2D IconArtifactSoup;
-
-    //Potions
-    public Texture2D IconPotionHealth;
-    public Texture2D IconPotionSpeed;
-    public Texture2D IconPotionDefence;
-    public Texture2D IconPotionHaste;
-    public Texture2D IconPotionStrength;
-
-    //Swords
-    public Texture2D IconSwordWooden;
-    public Texture2D IconSwordIron;
-
-    //Towers
-    public Texture2D IconTowerFlame;
-    public Texture2D IconTowerHealing;
-    public Texture2D IconTowerIce;
-    public Texture2D IconTowerPoison;
-    public Texture2D IconTowerArcane;
+    public int TowerIndex;
 
     public void Save()
     {
@@ -61,6 +32,21 @@ public class PlayerInventory : ScriptableObject
         return Load(Instantiate(Player.PlayerPrefab, pos, Quaternion.identity));
     }
 
+    [Button]
+    public void ResetInventory()
+    {
+        Artifacts = new Artifact[3];
+        ArtifactIndex = 0;
+        Armors = new Armor[3];
+        ArmorIndex = 0;
+        Potions.Clear();
+        Towers.Clear();
+        Coins = 0;
+        Sword = null;
+        Player.CurrentHP = Player.PlayerPrefab.GetComponent<PlayerStats>().MaxHP;
+    }
+
+    [Button]
     public void AddCoins(float amount)
     {
         Coins += amount;
@@ -211,15 +197,22 @@ public class PlayerInventory : ScriptableObject
     #region Tower Functions
     public void AddTower(Tower data)
     {
+        ID.GenerateID(5);
         Towers.Add(data);
     }
     public void RemoveTower(Tower data)
     {
         Towers.Remove(data);
     }
-    public void SpawnTower(Tower data)
+    public GameObject SpawnTower(Vector3 pos) //don't think this is gonna work
     {
-        //spawn tower
+        GameObject tower = Instantiate(Towers[TowerIndex].BaseTower, pos, Quaternion.identity);
+        if (tower != null)
+        {
+            tower.GetComponent<TowerStats>().ID = Towers[TowerIndex].ID;
+        }
+
+        return tower;
     }
     public void DespawnTower(Tower data)
     {
@@ -272,7 +265,7 @@ public class Tower
     public GameObject BaseTower;
     public float CurrentHP;
     public int TowerLevel;
-    public GameObject TowerReference;
+    public string ID;
 }
 
 [Serializable]
@@ -289,4 +282,17 @@ public class Sword
     public Sprite Icon;
     public string Name;
     public float damageModifier;
+}
+
+public class ID
+{
+    public static string GenerateID(int length)
+    {
+        string output = "";
+        for (int i = 0; i < length; i++)
+        {
+            output += UnityEngine.Random.Range(0,10).ToString();
+        }
+        return output;
+    }
 }

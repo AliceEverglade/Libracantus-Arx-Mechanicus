@@ -122,23 +122,4 @@ MonoBehaviour:
     CurrentHP: 0
     TowerLevel: 0
     TowerReference: {fileID: 0}
-  IconArmorLeather: {fileID: 2800000, guid: 33dcc2f8c46e4304d92d9ed8ec5bb958, type: 3}
-  IconArmorIron: {fileID: 2800000, guid: 665bdda531d12a54da192c84d8b89175, type: 3}
-  IconArmorGold: {fileID: 2800000, guid: 9504723c7c653684788e0fb4c683e8db, type: 3}
-  IconArtifactLeaves: {fileID: 2800000, guid: 6c41c6c08d712734b8d2af5a5c7eeb91, type: 3}
-  IconArtifactNecklace: {fileID: 2800000, guid: dd6caa04bf8e6eb4890bfe5245f7c09b, type: 3}
-  IconArtifactPurity: {fileID: 2800000, guid: 63076ab5befce7e48bac026043e82fae, type: 3}
-  IconArtifactStrength: {fileID: 2800000, guid: 692494730451fbb4695314cb5c2351ec, type: 3}
-  IconArtifactSoup: {fileID: 2800000, guid: ac2fd06cbf83ce34ab96dce9b10cef85, type: 3}
-  IconPotionHealth: {fileID: 2800000, guid: 203b593706bbb654db9ed2c63a9e7698, type: 3}
-  IconPotionSpeed: {fileID: 2800000, guid: 9c3793031238bc24fa002909b656a6e6, type: 3}
-  IconPotionDefence: {fileID: 2800000, guid: e8a0f31c1ff05a143829769ae3772923, type: 3}
-  IconPotionHaste: {fileID: 2800000, guid: bba51489d299cfb42a36bc18713d097d, type: 3}
-  IconPotionStrength: {fileID: 2800000, guid: 1e03dc6889ea8a946841c4b998575f90, type: 3}
-  IconSwordWooden: {fileID: 2800000, guid: a419fa7c042c35f4087f29ce1a165054, type: 3}
-  IconSwordIron: {fileID: 2800000, guid: a1a4a0cacd0838244a9c2454f8d45e26, type: 3}
-  IconTowerFlame: {fileID: 2800000, guid: ad8407e93896f66498eee9fb9b994e36, type: 3}
-  IconTowerHealing: {fileID: 2800000, guid: 5df682efd1d562749a46d7b56c72206f, type: 3}
-  IconTowerIce: {fileID: 2800000, guid: 87c31916e4e15f44aa50feee35d15e3a, type: 3}
-  IconTowerPoison: {fileID: 2800000, guid: ac202c433fe14c64c8175808e23b547c, type: 3}
-  IconTowerArcane: {fileID: 2800000, guid: e317efda98922b6479c168de8a37f792, type: 3}
+  TowerIndex: 0

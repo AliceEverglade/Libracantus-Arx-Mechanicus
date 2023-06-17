@@ -6,6 +6,8 @@ public class TowerStats : Stats
 {
     public float Range;
     public float AttackSpeedCounter;
+    
+    public string ID;
 
     private void OnDrawGizmos()
     {
