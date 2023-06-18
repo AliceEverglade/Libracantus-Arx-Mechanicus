@@ -10,10 +10,10 @@ public class ExitPortalScript : MonoBehaviour
     [SerializeField] private GameObject Player;
     [SerializeField] public BoxCollider2D _EBC2D;
     public GameObject pauseMenuUI;
-    public GameObject pauseMenuUI2;
+    public GameObject pauseMenuUI3;
     public GameObject ButtonsUI;
     public GameObject InventoryUI;
-    public GameObject InventoryUI2;
+    public GameObject InventoryUI3;
     public GameObject ButtonsUI2;
     
     
@@ -81,10 +81,10 @@ public class ExitPortalScript : MonoBehaviour
                 
                 GameIsPaused = true;
                 pauseMenuUI.SetActive(false);
-                pauseMenuUI2.SetActive(false);
+                pauseMenuUI3.SetActive(false);
                 ButtonsUI.SetActive(false);
                 InventoryUI.SetActive(false);
-                InventoryUI2.SetActive(false);
+                InventoryUI3.SetActive(false);
                 ButtonsUI2.SetActive(false);
                 
                 _EBC2D.enabled = false;
@@ -102,9 +102,9 @@ public class ExitPortalScript : MonoBehaviour
         _EBC2D.enabled = true;
         pauseMenuUI.SetActive(false);
         ButtonsUI.SetActive(false);
-        pauseMenuUI2.SetActive(true);
+        pauseMenuUI3.SetActive(true);
         InventoryUI.SetActive(false);
         ButtonsUI2.SetActive(false);
-        InventoryUI2.SetActive(true);
+        InventoryUI3.SetActive(true);
     }
 }
