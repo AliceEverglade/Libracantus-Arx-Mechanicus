@@ -45,6 +45,8 @@ public class ExitPortalScript : MonoBehaviour
         _PM1 = Player.GetComponent<PlayerMove>();
     }
 
+    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -76,7 +78,7 @@ public class ExitPortalScript : MonoBehaviour
                 ExitScreenOpen.SetActive(true);
                 Debug.Log("Shop Has Been Accesed");
                 _PM1.enabled = false;
-                Time.timeScale = 0f;
+                
                 GameIsPaused = true;
                 pauseMenuUI.SetActive(false);
                 pauseMenuUI2.SetActive(false);
