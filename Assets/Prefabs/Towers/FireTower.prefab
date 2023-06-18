@@ -275,6 +275,7 @@ MonoBehaviour:
   priceNumber: {fileID: 4132870605086391141}
   MaxLevelText: {fileID: 4132870605431033938}
   UpgradeUI: {fileID: 4132870606421694882}
+  Inventory: {fileID: 0}
   stats: {fileID: 4132870606178327106}
 --- !u!1 &4132870604983007003
 GameObject:
@@ -1317,17 +1318,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adfec64ae75c5ff449c515d3bf2cf7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHP: 0
+  MaxHP: 1200
   CurrentHP: 0
-  Speed: 0
+  Speed: 1
   SpeedMultiplier: 0
   StrengthMultiplier: 0
   OnHitEffects: []
-  targetingManager: {fileID: 0}
-  targetingSystem: {fileID: 0}
+  targetingManager: {fileID: 11400000, guid: adf06397b19d1674e94682d3912c51ab, type: 2}
+  targetingSystem: {fileID: 11400000, guid: 1cd7da3413fad5a469f468e9ca331f03, type: 2}
   attackPriority: 0
+  onDeath: {fileID: 11400000, guid: 50f360a545b5ee14db1cf72a0d9d5b52, type: 2}
+  Value: 0
   Range: 0
   AttackSpeedCounter: 0
+  ID: 
 --- !u!114 &4132870606178327109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1341,7 +1345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 0}
-  targetTag: 
+  targetTag: Enemy
 --- !u!61 &4132870606178327108
 BoxCollider2D:
   m_ObjectHideFlags: 0

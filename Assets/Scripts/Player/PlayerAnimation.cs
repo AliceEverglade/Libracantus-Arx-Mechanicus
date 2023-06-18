@@ -8,6 +8,9 @@ public class PlayerAnimation : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private AnimationStates animState;
+    [SerializeField] private PlayerStats stats;
+
+    bool CanAttack = true;
     public AnimationStates AnimState
     {
         get => animState;
@@ -55,6 +58,7 @@ public class PlayerAnimation : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        stats = GetComponent<PlayerStats>();
     }
 
     // Update is called once per frame
@@ -69,7 +73,7 @@ public class PlayerAnimation : MonoBehaviour
         }
     }
 
-    bool CanAttack = true;
+    
 
     IEnumerator CooldownSword()
     {
@@ -118,5 +122,15 @@ public class PlayerAnimation : MonoBehaviour
     public void EndAttack()
     {
         isAttacking = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("player attack Collision Detected");
+        if (collision.CompareTag("Enemy"))
+        {
+            Debug.Log($"{collision.gameObject.name} attacked by player");
+            stats.CallOnHitEffects(collision.gameObject.GetComponent<Stats>());
+        }
     }
 }

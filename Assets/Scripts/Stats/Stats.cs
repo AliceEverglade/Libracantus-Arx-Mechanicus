@@ -18,6 +18,9 @@ public abstract class Stats : MonoBehaviour
     [SerializeField] private TargetingManager targetingManager;
     public Targeting targetingSystem;
     [SerializeField] private AttackPriorities attackPriority;
+
+    [SerializeField] private OnDeath onDeath;
+    public float Value;
     public AttackPriorities AttackPriority
     {
         get => attackPriority;
@@ -46,6 +49,13 @@ public abstract class Stats : MonoBehaviour
         All
     }
 
+    private void Update()
+    {
+        if(CurrentHP <= 0)
+        {
+            onDeath.Die(this,this.gameObject);
+        }
+    }
 
     public void CallOnHitEffects(Stats target)
     {

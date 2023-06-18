@@ -24,12 +24,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: onDeath
+      value: 
+      objectReference: {fileID: 11400000, guid: 50f360a545b5ee14db1cf72a0d9d5b52, type: 2}
+    - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: fireRate
       value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569262933788256699, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: CurrentHP
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2569262933788256700, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: m_Name
       value: Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569262933788256700, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2569262933788256702, guid: b352e8a4f3aca1e4794b50e897c2919b, type: 3}
       propertyPath: m_RootOrder
