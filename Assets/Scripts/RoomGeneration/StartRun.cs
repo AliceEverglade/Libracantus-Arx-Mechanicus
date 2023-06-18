@@ -28,7 +28,9 @@ public class StartRun : MonoBehaviour
         
     }
 
-    private void Start()
+    
+
+    private void StartUp()
     {
         Debug.Log("StartRoomGen");
         data.StartRun();

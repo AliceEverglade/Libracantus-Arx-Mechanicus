@@ -11202,6 +11202,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 642074250}
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &134153358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68480,6 +68492,7 @@ MonoBehaviour:
   inventory: {fileID: 11400000, guid: ef7091c27bdf5794fa171bf72fca335c, type: 2}
   image: {fileID: 2008011771}
   grayedOutColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+  transparentColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &576502892
 GameObject:
   m_ObjectHideFlags: 0
@@ -107393,7 +107406,7 @@ MonoBehaviour:
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
-      TowerReference: {fileID: 0}
+      ID: 
     Price: 10
   - Name: Healing Tower
     Tower:
@@ -107403,7 +107416,7 @@ MonoBehaviour:
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
-      TowerReference: {fileID: 0}
+      ID: 
     Price: 18
   - Name: Ice Tower
     Tower:
@@ -107413,7 +107426,7 @@ MonoBehaviour:
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
-      TowerReference: {fileID: 0}
+      ID: 
     Price: 8
   - Name: Poison Tower
     Tower:
@@ -107423,7 +107436,7 @@ MonoBehaviour:
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
-      TowerReference: {fileID: 0}
+      ID: 
     Price: 12
   - Name: Arcane Tower
     Tower:
@@ -107433,7 +107446,7 @@ MonoBehaviour:
       BaseTower: {fileID: 0}
       CurrentHP: 0
       TowerLevel: 0
-      TowerReference: {fileID: 0}
+      ID: 
     Price: 5
   SwordShopItems:
   - Name: Iron Sword
@@ -119359,43 +119372,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2008011771}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 811258406}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2008011768}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 389825961}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2008011771
 MonoBehaviour:
   m_ObjectHideFlags: 0
