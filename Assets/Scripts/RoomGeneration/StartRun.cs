@@ -25,11 +25,13 @@ public class StartRun : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        data.StartRun();
+        
     }
 
     private void Start()
     {
+        Debug.Log("StartRoomGen");
+        data.StartRun();
         library.RoomCount = 0;
         library.StartGeneration(this.gameObject);
         
@@ -48,7 +50,7 @@ public class StartRun : MonoBehaviour
 
     private void OnDisable()
     {
-
+        RoomSpawner.onSpawnRoom -= AddRoomToList;
     }
 
     // Update is called once per frame

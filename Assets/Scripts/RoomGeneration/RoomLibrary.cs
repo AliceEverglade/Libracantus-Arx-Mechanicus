@@ -19,7 +19,7 @@ public class RoomLibrary : ScriptableObject
     {
         foreach (RoomData data in RoomDataList)
         {
-            data.Name = data.Prefab.name;
+            //data.Name = data.Prefab.name;
         }
     }
 
