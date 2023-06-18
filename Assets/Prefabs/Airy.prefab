@@ -5119,9 +5119,6 @@ MonoBehaviour:
   - Effect: {fileID: 11400000, guid: 7aa78de3368577147bf903af71d04e63, type: 2}
     Potency: 20
     Duration: 0
-  - Effect: {fileID: 11400000, guid: 9a8cd089e4a6c2f42897496406bdbf01, type: 2}
-    Potency: 10
-    Duration: 2
   targetingManager: {fileID: 11400000, guid: adf06397b19d1674e94682d3912c51ab, type: 2}
   targetingSystem: {fileID: 11400000, guid: 1cd7da3413fad5a469f468e9ca331f03, type: 2}
   attackPriority: 0
