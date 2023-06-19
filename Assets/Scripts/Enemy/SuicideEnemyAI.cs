@@ -20,7 +20,7 @@ public class SuicideEnemyAI : EnemyAISO
                 self.gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
         }
-        if(Range < attackRange)
+        if (Range < attackRange)
         {
             stats.CallOnHitEffects(target.GetComponent<Stats>());
             if (self.gameObject.transform.position.x > target.transform.position.x)
@@ -31,7 +31,6 @@ public class SuicideEnemyAI : EnemyAISO
             {
                 self.gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
-            Destroy(self.gameObject);
         }
     }
 }
