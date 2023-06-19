@@ -40,7 +40,7 @@ public class EnemyScript : MonoBehaviour
             triggerCol.radius = 4;
             if (canAim)
             {
-                AI.Aim(this,stats, target, 0);
+                AI.Aim(this,stats, target, 2);
             }
         }
 
@@ -67,7 +67,7 @@ public class EnemyScript : MonoBehaviour
             triggerCol.radius = 9;
             if (canAim)
             {
-                AI.Aim(this,stats, target, 0);
+                AI.Aim(this,stats, target, 2);
             }
         }
 
