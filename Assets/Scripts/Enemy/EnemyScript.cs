@@ -70,6 +70,11 @@ public class EnemyScript : MonoBehaviour
                 AI.Aim(this,stats, target, 0);
             }
         }
+
+        if(!canAim)
+        {
+            Idle(new Vector3(transform.position.x, transform.position.y));
+        }
     }
 
     private void OnTriggerStay2D(Collider2D col)

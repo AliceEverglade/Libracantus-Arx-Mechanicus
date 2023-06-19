@@ -111,6 +111,8 @@ MonoBehaviour:
   targetingManager: {fileID: 11400000, guid: adf06397b19d1674e94682d3912c51ab, type: 2}
   targetingSystem: {fileID: 11400000, guid: 3f96c3dd9c2a4294781995802579c015, type: 2}
   attackPriority: 2
+  onDeath: {fileID: 0}
+  Value: 0
   shootingTime: 2
   fireRate: 700
   shootingPower: 1
@@ -162,6 +164,7 @@ GameObject:
   - component: {fileID: 8912846441179533719}
   - component: {fileID: 8912846441179533718}
   - component: {fileID: 3926760713019145836}
+  - component: {fileID: 3116832314582569866}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -257,3 +260,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &3116832314582569866
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912846441179533717}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.8}
+  m_Size: {x: 1.7, y: 2.89}
+  m_Direction: 0
