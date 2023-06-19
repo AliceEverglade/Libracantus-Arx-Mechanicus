@@ -30,7 +30,7 @@ public class StartRun : MonoBehaviour
 
     
 
-    private void StartUp()
+    private void Start()
     {
         Debug.Log("StartRoomGen");
         data.StartRun();
