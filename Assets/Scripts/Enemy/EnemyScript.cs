@@ -73,7 +73,9 @@ public class EnemyScript : MonoBehaviour
 
         if(!canAim)
         {
-            Idle(new Vector3(transform.position.x, transform.position.y));
+            float rndX = Random.Range(transform.position.x - 11, transform.position.x + 10);
+            float rndY = Random.Range(transform.position.y - 11, transform.position.y + 10);
+            Idle(new Vector3(rndX, rndY));
         }
     }
 
