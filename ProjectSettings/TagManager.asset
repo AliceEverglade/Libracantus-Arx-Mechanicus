@@ -11,6 +11,7 @@ TagManager:
   - Event
   - RoomSpawnPoint
   - Room
+  - TowerSpawnPoint
   layers:
   - Default
   - TransparentFX
