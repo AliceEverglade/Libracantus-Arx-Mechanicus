@@ -21,6 +21,7 @@ public class spawnEnemies : MonoBehaviour
         if (restart)
         {
             StartCoroutine(WaitSpawn(wait));
+            Destroy(spawner);
         }
     }
     private IEnumerator WaitSpawn(float wait)
