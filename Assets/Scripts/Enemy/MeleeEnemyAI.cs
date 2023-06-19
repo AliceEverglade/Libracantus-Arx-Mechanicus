@@ -22,7 +22,8 @@ public class MeleeEnemyAI : EnemyAISO
         }
         if (Range < attackRange)
         {
-            stats.CallOnHitEffects(target.GetComponent<Stats>());
+            //stats.CallOnHitEffects(target.GetComponent<Stats>());
+            target.GetComponent<PlayerStats>().CurrentHP -= 0.1f;
             if (self.gameObject.transform.position.x > target.transform.position.x)
             {
                 self.gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = false;

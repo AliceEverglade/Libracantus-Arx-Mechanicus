@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 5660
+  controlID: 8666
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 5637
+  controlID: 8667
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 5638
+  controlID: 8668
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 28f9fbffa0fefbffb800fcff0807fcffbe08fcff5af4ffff80f8fffffa0f0100921501005a160300
+      m_ExpandedIDs: 820afbff28f9fbffa0fefbffb800fcff0807fcffbe08fcff5af4ffff80f8fffffa0f010092150100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -28.140825, y: -17.000593, z: 28.44861}
+    m_Target: {x: -29.689497, y: -11.529887, z: 43.280678}
     speed: 2
-    m_Value: {x: -28.140825, y: -17.000593, z: 28.44861}
+    m_Value: {x: -29.689497, y: -11.529887, z: 43.280678}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -614,9 +614,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.6301284
+    m_Target: 7.4081945
     speed: 2
-    m_Value: 4.6301284
+    m_Value: 7.4081945
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -775,22 +775,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Lighting
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Lighting
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Djem\Documents\GitHub\Unity\Libracantus-Arx-Mechanicus
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 200c0100
-    m_LastClickedID: 68640
-    m_ExpandedIDs: 00000000f20b0100f40b0100f60b0100f80b0100fa0b0100fc0b0100fe0b0100000c0100020c0100040c01000a0c01002c0c0100320c0100
+    m_SelectedIDs: 320c0100
+    m_LastClickedID: 68658
+    m_ExpandedIDs: 00000000f20b0100f40b0100f60b0100f80b0100fa0b0100fc0b0100fe0b0100000c0100020c0100040c01000a0c01002c0c0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -843,8 +843,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44160300
-    m_LastClickedInstanceID: 202308
+    m_SelectedInstanceIDs: 7c0c0100
+    m_LastClickedInstanceID: 68732
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d66e00007c950000ba6f0000
     m_RenameOverlay:
@@ -922,8 +922,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -964,7 +964,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 202308
+  m_LastInspectedObjectInstanceID: 68732
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
