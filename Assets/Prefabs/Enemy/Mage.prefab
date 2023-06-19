@@ -205,7 +205,7 @@ MonoBehaviour:
   attackPriority: 2
   onDeath: {fileID: 11400000, guid: 50f360a545b5ee14db1cf72a0d9d5b52, type: 2}
   Value: 0
-  shootingTime: 2
+  shootingTime: 4
   fireRate: 700
   shootingPower: 1
 --- !u!58 &1613342779717995161
