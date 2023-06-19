@@ -49,7 +49,7 @@ public class ExitPortalScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && GameObject.FindObjectOfType<EnemyScript>() == null)
         {
             Debug.Log("Shop Open");
             ExitOpen = true;
