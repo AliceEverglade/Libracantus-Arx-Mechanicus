@@ -31,6 +31,6 @@ public class SuicideEnemyAI : EnemyAISO
             {
                 self.gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
-        }
-    }
+        }        
+    }   
 }
