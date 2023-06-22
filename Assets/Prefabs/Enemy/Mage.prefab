@@ -204,9 +204,9 @@ MonoBehaviour:
   targetingSystem: {fileID: 11400000, guid: 3f96c3dd9c2a4294781995802579c015, type: 2}
   attackPriority: 2
   onDeath: {fileID: 11400000, guid: 50f360a545b5ee14db1cf72a0d9d5b52, type: 2}
-  Value: 0
+  Value: 3
   shootingTime: 7
-  fireRate: 700
+  fireRate: 1100
   shootingPower: 1
 --- !u!58 &1613342779717995161
 CircleCollider2D:
